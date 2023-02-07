@@ -1,0 +1,33 @@
+---
+title: "Initial explore"
+author: "Julianna Renzi"
+date: "2/6/2023"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+require(here)
+require(tidyverse)
+```
+
+This code does some initial exploration of the disease survey data collected by Julianna Renzi in the summer of 2022 in RECHARGE.
+
+# Bring in the data
+
+```{r}
+surveys <- read_csv("data/disease_surveys.csv")
+colony_counts <- read_csv("data/colony_counts_T12.csv")
+```
+
+
+# Explore
+
+```{r}
+
+```
+

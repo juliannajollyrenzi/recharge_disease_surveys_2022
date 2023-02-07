@@ -1,0 +1,33 @@
+﻿Block_Plot,Herb_trt,Disturbance_Trt,Nutrient_Trt,Pocillopora_colonies,Poc_norecruits,Acropora_colonies,Notes
+A1,1x1,Intact,Ambient,17,16,1,This is from T12 photomosaics
+A1,2x2,Intact,Ambient,17,10,1,
+A1,3x3,Intact,Ambient,12,10,1,
+A1,open,Intact,Ambient,7,5,0,
+A2,1x1,Intact,Enriched,22,20,2,
+A2,2x2,Intact,Enriched,19,16,3,
+A2,3x3,Intact,Enriched,20,19,3,
+A2,open,Intact,Enriched,22,21,4,
+B3,1x1,Intact,Enriched,39,25,8,This is messed up--this number is super inflated by all the little recruits
+B3,2x2,Intact,Enriched,21,20,4,
+B3,3x3,Intact,Enriched,22,19,3,
+B3,open,Intact,Enriched,24,19,3,
+B4,1x1,Intact,Ambient,15,13,6,I think need to see the T12 mosaic for this since so many could have died between T11 and T12--looked at the T12_AA in the all_versions folder
+B4,2x2,Intact,Ambient,14,12,3,Also used the _AA version again
+B4,3x3,Intact,Ambient,14,13,2,
+B4,open,Intact,Ambient,8,7,2,
+C1,1x1,Intact,Ambient,20,19,2,
+C1,2x2,Intact,Ambient,17,15,4,
+C1,3x3,Intact,Ambient,10,9,3,
+C1,open,Intact,Ambient,9,9,2,
+C3,1x1,Intact,Enriched,23,22,8,
+C3,2x2,Intact,Enriched,20,1,4,
+C3,3x3,Intact,Enriched,21,21,1,
+C3,open,Intact,Enriched,11,11,2,
+D2,1x1,Intact,Ambient,24,19,11,
+D2,2x2,Intact,Ambient,15,14,4,
+D2,3x3,Intact,Ambient,13,13,0,
+D2,open,Intact,Ambient,11,11,0,
+D4,1x1,Intact,Enriched,20,12,3,
+D4,2x2,Intact,Enriched,15,15,2,
+D4,3x3,Intact,Enriched,26,26,8,
+D4,open,Intact,Enriched,21,21,2,
