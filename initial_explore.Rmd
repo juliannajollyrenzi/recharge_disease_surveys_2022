@@ -63,4 +63,339 @@ pavEH %>%
   facet_wrap(~Nutrient_Trt)
 ```
 
+But, this doesn't mean anything! Because need to get colony counts 
 
+# Pocillopora TL 
+
+```{r}
+# what are our options here?
+surveys %>% 
+  filter(Genus == "Pocillopora") %>% 
+  select(Suspected_disease) %>% unique() %>% arrange() %>% view()
+
+
+```
+
+Start with just the TL instances that seem the most sure?
+
+```{r}
+
+surveys %>% 
+  filter(Genus == "Pocillopora" & (Suspected_disease == "TL_ciliate" | Suspected_disease == "TL")) %>% 
+  # start looking without thinking about size?
+  group_by(Block, Herbivory_trt, Progression) %>% 
+  summarize(Count = n()) %>% 
+  pivot_wider(names_from = Progression, values_from = Count) %>% 
+  full_join(colony_counts) %>%
+  filter(Disturbance_Trt == "Intact") %>% 
+  mutate(Acute = replace_na(Acute, 0),
+         Subacute = replace_na(Subacute, 0),
+         Chronic = replace_na(Chronic, 0)) %>% 
+  ungroup() %>% 
+  select(-Acropora_colonies, -Notes) %>% 
+  pivot_longer(cols = c("Acute", "Subacute", "Chronic"),
+               names_to = "Progression",
+               values_to = "Count") %>% 
+  # reorder factors
+  mutate(Herbivory_trt = factor(Herbivory_trt, levels = c("1x1", "2x2", "3x3", "open"))) %>% 
+  mutate(Progression = factor(Progression, levels = c("Chronic", "Subacute", "Acute"))) %>% 
+  # get prevalences
+  mutate(Prev_all = Count/Pocillopora_colonies,
+         Prev_noRecruits = Count/Poc_norecruits) -> pocTL
+  
+
+```
+
+
+## Plot
+
+Just count (sloppy)
+
+```{r}
+pocTL %>% 
+  ggplot(aes(x = Herbivory_trt, y = Count, fill = Progression, color = Nutrient_Trt,)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+```
+
+All
+
+```{r}
+pocTL %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill = Progression, color = Nutrient_Trt,)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+```
+
+No recruits
+
+```{r}
+pocTL %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_noRecruits, fill = Progression)) +
+  geom_bar(stat = "identity", color = "gray") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+```
+
+The opposite way?
+
+```{r}
+pocTL %>% 
+  ggplot(aes(x = Nutrient_Trt, y = Prev_all, color = Nutrient_Trt, fill = Progression)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Herbivory_trt)
+```
+
+
+### By progression
+
+```{r}
+
+pocTL %>% 
+  filter(Progression == "Chronic") %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill =  Nutrient_Trt)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+
+```
+
+```{r}
+
+pocTL %>% 
+  filter(Progression == "Subacute") %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill =  Nutrient_Trt)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+
+```
+
+```{r}
+
+pocTL %>% 
+  filter(Progression == "Acute") %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill =  Nutrient_Trt)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+
+```
+
+Subacute + acute?
+
+```{r}
+
+pocTL %>% 
+  filter(Progression == "Acute" | Progression == "Subacute") %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill = Progression, color = Nutrient_Trt,)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+
+```
+
+## Model?
+
+Make a df for all
+
+```{r}
+surveys %>% 
+  filter(Genus == "Pocillopora" & (Suspected_disease == "TL_ciliate" | Suspected_disease == "TL")) %>% 
+  # start looking without thinking about size?
+  group_by(Block, Herbivory_trt) %>% 
+  summarize(Count = n()) %>% 
+  full_join(colony_counts) %>%
+  filter(Disturbance_Trt == "Intact") %>% 
+  ungroup() %>% 
+  select(-Acropora_colonies, -Notes) %>% 
+  mutate(Herbivory_trt = factor(Herbivory_trt, levels = c("1x1", "2x2", "3x3", "open"))) %>% 
+  # get prevalences
+  mutate(Prev_all = Count/Pocillopora_colonies,
+         Prev_noRecruits = Count/Poc_norecruits) -> pocTLmod
+```
+
+Make a model?
+
+```{r}
+mPoc <- glm(Count ~ Herbivory_trt + Nutrient_Trt + Herbivory_trt:Nutrient_Trt + offset(log(Pocillopora_colonies)), 
+    family = poisson(link = "log"),
+    data = pocTLmod)
+  summary(mPoc) # stepwise selection just selects for nutrient enrichment
+```
+
+
+# Ciliate TL
+
+Start with just the TL instances that seem the most sure?
+
+```{r}
+surveys %>% 
+  filter(Genus == "Pocillopora" & (Suspected_disease == "TL_ciliate")) %>%
+  # start looking without thinking about size?
+  group_by(Block, Herbivory_trt, Progression) %>% 
+  summarize(Count = n()) %>% 
+  pivot_wider(names_from = Progression, values_from = Count) %>% 
+  full_join(colony_counts) %>%
+  filter(Disturbance_Trt == "Intact") %>% 
+  mutate(#Acute = replace_na(Acute, 0),
+         Subacute = replace_na(Subacute, 0),
+         Chronic = replace_na(Chronic, 0)) %>% 
+  ungroup() %>% 
+  select(-Acropora_colonies, -Notes) %>% 
+  pivot_longer(cols = c( "Subacute", "Chronic"), 
+               names_to = "Progression",
+               values_to = "Count") %>% 
+  # reorder factors
+  mutate(Herbivory_trt = factor(Herbivory_trt, levels = c("1x1", "2x2", "3x3", "open"))) %>% 
+  mutate(Progression = factor(Progression, levels = c("Chronic", "Subacute"))) %>% 
+  # get prevalences
+  mutate(Prev_all = Count/Pocillopora_colonies,
+         Prev_noRecruits = Count/Poc_norecruits) -> pocTLcil
+  
+
+```
+
+
+## Plot
+
+Just count (sloppy)
+
+```{r}
+pocTLcil %>% 
+  ggplot(aes(x = Herbivory_trt, y = Count, fill = Progression, color = Nutrient_Trt,)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+```
+
+All
+
+```{r}
+pocTLcil %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill = Progression, color = Nutrient_Trt,)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+```
+
+No recruits
+
+```{r}
+pocTLcil %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_noRecruits, fill = Progression)) +
+  geom_bar(stat = "identity", color = "gray") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+```
+
+The opposite way?
+
+```{r}
+pocTLcil %>% 
+  ggplot(aes(x = Nutrient_Trt, y = Prev_all, color = Nutrient_Trt, fill = Progression)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Herbivory_trt)
+```
+
+
+### By progression
+
+```{r}
+
+pocTLcil %>% 
+  filter(Progression == "Chronic") %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill =  Nutrient_Trt)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+
+```
+
+```{r}
+
+pocTLcil %>% 
+  filter(Progression == "Subacute") %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill =  Nutrient_Trt)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+
+```
+
+```{r}
+
+pocTLcil %>% 
+  filter(Progression == "Acute") %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill =  Nutrient_Trt)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+
+```
+
+Subacute + acute?
+
+```{r}
+
+pocTLcil %>% 
+  filter(Progression == "Acute" | Progression == "Subacute") %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill = Progression, color = Nutrient_Trt,)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+
+```
+
+## Model?
+
+Make a df for all
+
+```{r}
+surveys %>% 
+  filter(Genus == "Pocillopora" & (Suspected_disease == "TL_ciliate" )) %>% 
+  # start looking without thinking about size?
+  group_by(Block, Herbivory_trt) %>% 
+  summarize(Count = n()) %>% 
+  full_join(colony_counts) %>%
+  filter(Disturbance_Trt == "Intact") %>% 
+  ungroup() %>% 
+  select(-Acropora_colonies, -Notes) %>% 
+  mutate(Herbivory_trt = factor(Herbivory_trt, levels = c("1x1", "2x2", "3x3", "open"))) %>% 
+  # get prevalences
+  mutate(Prev_all = Count/Pocillopora_colonies,
+         Prev_noRecruits = Count/Poc_norecruits) -> pocTLcilmod
+```
+
+Make a model?
+
+```{r}
+mPocCil <- glm(Count ~ Herbivory_trt + offset(log(Pocillopora_colonies)), 
+    family = poisson(link = "log"),
+    data = pocTLcilmod)
+  summary(mPocCil) # a stepwise selection selects for herbivory treatment
+```
+
+
+
+# Acropora

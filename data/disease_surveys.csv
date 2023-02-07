@@ -1,492 +1,492 @@
 ﻿Date,Block,Herbivory_trt,Photo_ID,Coral_ID,Max_diameter_colonyDEADANDALIVE,Genus,Suspected_disease,Progression,Post_facto_disease,Notes
-2022-08-01,D1,3x3,D1_3x3_Aug1_Pav_EHmaybe1_1,NA,10,Pavona,EH,Mild,,
-2022-08-01,D1,3x3,D1_3x3_Aug1_Pav_EHmaybeno2_1,NA,20,Pavona,EH,Mild,,
-2022-08-01,D1,3x3,D1_3x3_Aug1_Pav_EH3_1,NA,15,Pavona,EH,Severe,,
-2022-08-01,D1,2x2,D1_2x2_Aug1_Pav_EH1_1,NA,10,Pavona,EH,Medium,,
-2022-08-01,D1,2x2,D1_2x2_Aug1_Pav_EH2_1,NA,5,Pavona,EH,Medium,,
-2022-08-01,D1,2x2,D1_2x2_Aug1_Pav_EH3_1,NA,5,Pavona,EH,Medium,,
-2022-08-01,D1,2x2,D1_2x2_Aug1_Astrea_Bleach1_1,NA,5,Astrea,Focal_bleach,NA,,Shouldn't count this I don't think. Skipped the rest so would want to go back and write others if we want to include it
-2022-08-01,D1,2x2,D1_2x2_Aug1_Astrea_Bleach1_1,NA,10,Astrea,Focal_bleach,NA,,
-2022-08-01,C3,3x3,C3_3x3_Aug1_P4_Bleach_1,P4,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,3x3,C3_3x3_Aug1_P8_1,P8,20,Pocillopora,TL_ciliate,Chronic,,Light ciliates. Also the size
-2022-08-01,C3,3x3,C3_3x3_Aug1_P20_1,P20,25,Pocillopora,TL_ciliate,Chronic,,
-2022-08-01,C3,3x3,C3_3x3_Aug1_P20_1,P20,25,Pocillopora,Bleach_base_or_side,NA,,Repeating rows that have multiple categories
-2022-08-01,C3,3x3,C3_3x3_Aug1_P19_2,P19,20,Pocillopora,Bleach_base_or_side,NA,,Bleached in the direction of the dead skeleton which died since the last time point
-2022-08-01,C3,3x3,C3_3x3_Aug1_P22_1,P22,25,Pocillopora,TL_ciliate,Chronic,,
-2022-08-01,C3,3x3,C3_3x3_Aug1_P21_1,P21,20,Pocillopora,Bleach_base_or_side,NA,,Interstices
-2022-08-01,C3,3x3,C3_3x3_Aug1_P24_1,P24,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,3x3,C3_3x3_Aug1_P24_1,P24,15,Pocillopora,TL_ciliate,Subacute,,
-2022-08-01,C3,3x3,C3_3x3_Aug1_Pav_EH1_1,NA,10,Pavona,EH,Medium,,
-2022-08-01,C3,3x3,C3_3x3_Aug1_P15_1,P15,20,Pocillopora,TL_ciliate,Subacute,,
-2022-08-01,C3,3x3,C3_3x3_Aug1_P10_1,P10,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,3x3,C3_3x3_Aug1_Por_TL1_1,NA,10,Porites,TL,Chronic,,
-2022-08-01,C3,3x3,C3_3x3_Aug1_P12_1,P12,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,1x1,C3_1x1_A6n7_1,A6,10,Acropora,Dead_tips,NA,,
-2022-08-01,C3,1x1,C3_1x1_A6n7_1,A7,10,Acropora,Dead_tips,NA,,
-2022-08-01,C3,1x1,C3_1x1_P2_1,P2,30,Pocillopora,TL_ciliate,Chronic,,
-2022-08-01,C3,1x1,C3_1x1_P2_1,P2,30,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,1x1,C3_1x1_P5_1,P5,15,Pocillopora,Bleach_base_or_side,NA,,Another instance of where bleaching is not where you'd expect if it's light-based?
-2022-08-01,C3,1x1,C3_1x1_Pabove14_1,TBD,TBD,Pocillopora,TL,Chronic,,
-2022-08-01,C3,1x1,C3_1x1_Pabove14_1,TBD,TBD-also check P17,Acropora,TL,Chronic,,
-2022-08-01,C3,1x1,C3_1x1_PinMontip_1,P27,Check-5,Pocillopora,TL,Chronic,,Check this--pretty sure it's 27 but is not circled in the photomosaics?
-2022-08-01,C3,1x1,C3_1x1_P23_1,P23,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,1x1,C3_1x1_P23_1,P23,15,Pocillopora,TL,Subacute,,
-2022-08-01,C3,1x1,C3_1x1_P17_1,P17,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,1x1,C3_1x1_belowA1_1,P19,Check-,Pocillopora,Maybe_TL,Chronic,,
-2022-08-01,C3,1x1,C3_1x1_A2_1,A2,20,Acropora,TL,Subacute,,
-2022-08-01,C3,1x1,C3_1x1_P20_1,P20,10,Pocillopora,TL_ciliate,Subacute,,
-2022-08-01,C3,1x1,C3_1x1_P28_1,P28,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,1x1,C3_1x1_P30_1,P30,25,Pocillopora,TL,Acute,,
-2022-08-01,C3,open,C3_open_P10_1,P10,20,Pocillopora,TL_ciliate_maybe,Chronic,,Not sure we should count this one
-2022-08-01,C3,open,C3_open_P8_1,P8,25,Pocillopora,TL_ciliate,Chronic,,Could this just be algal stress?
-2022-08-01,C3,open,C3_open_Pav_EH1_1,NA,20,Pavona,EH,Severe,,
-2022-08-01,C3,open,C3_open_Pav_EH2_1,NA,10,Pavona,EH,Medium,,
-2022-08-01,C3,open,C3_open_Pav_EH2_3,NA,15,Pavona,EH,Mild,,
-2022-08-01,C3,open,C3_open_Pav_EH3_3,NA,10,Pavona,EH,Mild,,
-2022-08-01,C3,open,C3_open_Pav_TL1_1,NA,10,Pavona,TL,Chronic,,
-2022-08-01,C3,open,C3_open_P3_1,P3,20,Pocillopora,Algal_interaction,NA,,Light ciliates at algal interaction margin
-2022-08-01,C3,open,C3_open_P5_1,P5,20,Pocillopora,TL_ciliate,Chronic,,
-2022-08-01,C3,open,C3_open_P12_1,P12,15,Pocillopora,TL,Subacute,,Couldn't tell if there were ciliates or not
-2022-08-01,C3,open,C3_open_P14_1,P14,5,Pocillopora,TL,Subacute,,
-2022-08-01,C3,open,C3_open_P13_1,P13,20,Pocillopora,Bleach_base_or_side,NA,,In the direction of dying coral outside the cage
-2022-08-01,C3,open,C3_open_P15_1,P15,20,Pocillopora,TL,Chronic,,
-2022-08-01,C3,2x2,C3_2x2_P12_1,P12,10,Pocillopora,TL_tips,NA,,
-2022-08-01,C3,2x2,C3_2x2_P12_1,P12b,10,Pocillopora,TL_tips,NA,,
-2022-08-01,C3,2x2,C3_2x2_P12_1,P12,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,2x2,C3_2x2_P12_1,P12b,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,2x2,C3_2x2_P13_1,P13,5,Pocillopora,TL_tips,NA,,
-2022-08-01,C3,2x2,C3_2x2_Pav_EH1_1,NA,15,Pavona,EH,Mild,,
-2022-08-01,C3,2x2,C3_2x2_Pav_EH2_1,NA,10,Pavona,EH,Medium,,
-2022-08-01,C3,2x2,C3_2x2_Montip_TL1_1,NA,15,Montipora,TL,Chronic,,
-2022-08-01,C3,2x2,C3_2x2_Astrea_Bleach_1,NA,10,Astrea,Focal_bleach,NA,,
-2022-08-01,C3,2x2,C3_2x2_Pav_EH3_1,NA,10,Pavona,EH,Severe,,
-2022-08-01,C3,2x2,C3_2x2_Astrea_Bleach2_1,NA,10,Astrea,Focal_bleach,NA,,
-2022-08-01,C3,2x2,C3_2x2_P7_1,P7,25,Pocillopora,TL,Subacute,,
-2022-08-01,C3,2x2,C3_2x2_P7_1,P7,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,2x2,C3_2x2_P8_1,P8,15,Pocillopora,TL_tips,NA,,
-2022-08-01,C3,2x2,C3_2x2_P8_1,P8,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,2x2,C3_2x2_P3_1,P3,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,2x2,C3_2x2_P3_1,P3,15,Pocillopora,TL_maybe,Chronic,,I think this might just be algae
-2022-08-01,C3,2x2,C3_2x2_P4_1,P4,20,Pocillopora,TL,Chronic,,
-2022-08-01,C3,2x2,C3_2x2_P11_1,P11,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,2x2,C3_2x2_P16_1,P16,10,Pocillopora,TL,Chronic,,"Lobophora driven? Not really ""progressive"". Not sure if we need to distinguish this stuff"
-2022-08-01,C3,2x2,C3_2x2_P18_1,P18,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,2x2,C3_2x2_P23_1,P23,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C3,2x2,C3_2x2_P23_1,P23,25,Pocillopora,TL,Subacute,,
-2022-08-01,C3,2x2,C3_2x2_P25_1,P25,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C1,1x1,C1_1x1_P1_1,P1,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C1,1x1,C1_1x1_P6_1,P6,20,Pocillopora,Bleach_base_or_side,NA,,Very light bleachy--not sure if want to distinguish between ones that are just very light on the bottom
-2022-08-01,C1,1x1,C1_1x1_P7_1,P7,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C1,1x1,C1_1x1_P7_1,P7,20,Pocillopora,TL,Subacute,,
-2022-08-01,C1,1x1,C1_1x1_P12_1,P12,50,Pocillopora,Bleach_base_or_side,NA,,Tons of little pockets of tissue. Maybe some TL also?
-2022-08-01,C1,1x1,C1_1x1_P12_1,P12,50,Pocillopora,TL_maybe,NA,,
-2022-08-01,C1,1x1,C1_1x1_P9_1,P9,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C1,1x1,C1_1x1_P9_1,P9,15,Pocillopora,TL,Subacute,,
-2022-08-01,C1,1x1,C1_1x1_P4_1,P4,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C1,1x1,C1_1x1_P4_1,P4,20,Pocillopora,TL,Subacute,,
-2022-08-01,C1,1x1,C1_1x1_P5_1,P5,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C1,1x1,C1_1x1_P5_1,P5,20,Pocillopora,TL,Chronic,,Pretty sure but not 100%
-2022-08-01,C1,1x1,C1_1x1_P14_1,P14,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,C1,1x1,C1_1x1_P14_1,P14,20,Pocillopora,TL,Subacute,,
-2022-08-01,C1,1x1,C1_1x1_PXX_1,TBD-P12 I think?,TBD,Pocillopora,TL,Chronic,,
-2022-08-01,C1,1x1,C1_1x1_P18_1,P18,25,Pocillopora,TL,Acute,,
-2022-08-01,C1,1x1,C1_1x1_P19_1,P19,25,Pocillopora,TL_ciliate,Subacute,,
-2022-08-01,C1,1x1,C1_1x1_P17_1,P17,20,Pocillopora,TL,Subacute,,
-2022-08-02,B4,3x3,B4_3x3_P9_1,P9,10,Pocillopora,TL,Acute,,
-2022-08-02,B4,3x3,B4_3x3_P8_1,P8,35,Pocillopora,TL,Acute,,
-2022-08-02,B4,3x3,B4_3x3_P8_1,P8,35,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B4,3x3,B4_3x3_A3_P4_1,A3,20,Acropora,Recently_dead,NA,,
-2022-08-02,B4,3x3,B4_3x3_A3_P4_1,P4,5,Pocillopora,Recently_dead,NA,,
-2022-08-02,B4,3x3,B4_3x3_P3_1,P3,20,Pocillopora,TL_maybe,NA,,
-2022-08-02,B4,3x3,B4_3x3_P5_1,P5,20,Pocillopora,TL,Acute,,
-2022-08-02,B4,3x3,B4_3x3_P14_1,P14,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B4,3x3,B4_3x3_P14_1,P14,15,Pocillopora,Bleached_tips,NA,,
-2022-08-02,B4,3x3,B4_3x3_P22_1,P22,10,Pocillopora,TL,Chronic,,Mostly dead
-2022-08-02,B4,3x3,B4_3x3_P1_1,P1,20,Pocillopora,TL_ciliate,Chronic,,
-2022-08-02,B4,1x1,B4_1x1_A4_1,A4,10,Acropora,Bleached_tips,NA,,
-2022-08-02,B4,1x1,B4_1x1_P23_1,P23,20,Pocillopora,Bleached_tips,NA,,
-2022-08-02,B4,1x1,B4_1x1_Montip_TL1_1,NA,20,Montipora,TL,Subacute,,
-2022-08-02,B4,1x1,B4_1x1_P25_1,P25,15,Pocillopora,TL,Subacute,,
-2022-08-02,B4,1x1,B4_1x1_P25_1,P25,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B4,1x1,B4_1x1_P19_1,P19,10,Pocillopora,Bleached_tips,NA,,
-2022-08-02,B4,1x1,B4_1x1_P17_1,P17,20,Pocillopora,Bleached_tips,NA,,
-2022-08-02,B4,1x1,B4_1x1_nextP26_1,P26,35,Pocillopora,Bleached_tips,NA,,
-2022-08-02,B4,1x1,B4_1x1_P32_1,P32,5,Pocillopora,Bleached_tips,NA,,
-2022-08-02,B4,1x1,B4_1x1_P14_1,P14,20,Pocillopora,Bleached_tips,NA,,
-2022-08-02,B4,1x1,B4_1x1_Montip_TL2_1,NA,10,Montipora,TL,Chronic,,
-2022-08-02,B4,1x1,B4_1x1_P9_andAbove_1,P16,15,Pocillopora,TL,Chronic,,Pretty sure this is actually _16 and P9 is dead
-2022-08-02,B4,1x1,B4_1x1_P9_andAbove_1,P16,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B4,2x2,B4_2x2_Pav_EH1_1,NA,15,Pavona,EH,Mild,,
-2022-08-02,B4,2x2,B4_2x2_P5_1,P5,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B4,2x2,B4_2x2_P31_1,P31,5,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B4,2x2,B4_2x2_P31_1,P31,5,Pocillopora,TL,Chronic,,
-2022-08-02,B4,2x2,B4_2x2_PXX_1,P32,5,Pocillopora,Bleached_tips,NA,,
-2022-08-02,B4,2x2,B4_2x2_P3_1,P3,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B4,2x2,B4_2x2_P3_1,P3,20,Pocillopora,Bleached_tips,NA,,
-2022-08-02,B4,2x2,B4_2x2_P30_1,P30,35,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B4,2x2,B4_2x2_P10_1 and B4_2x2_P10_18,P10,40,Pocillopora,TL,Subacute,,
-2022-08-02,B4,2x2,B4_2x2_P12_1,P12,20,Pocillopora,TL,Acute,,
-2022-08-02,B4,2x2,B4_2x2_P17_1,P17,20,Pocillopora,TL,Subacute,,
-2022-08-02,B4,open,B4_open_Pav_EH1_1,NA,10,Pavona,EH,Severe,,
-2022-08-02,B4,open,B4_open_P12_1,P12,30,Pocillopora,TL_ciliate,Subacute,,
-2022-08-02,B4,open,B4_open_P13_1,P13,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B4,open,B4_open_P2_1,P2,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,2x2,B3_2x2_Montip_TL1_1,NA,35,Montipora,TL,Subacute,,
-2022-08-02,B3,2x2,B3_2x2_P4_1,P4,20,Pocillopora,TL,Subacute,,
-2022-08-02,B3,2x2,B3_2x2_P4_1,P4,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,2x2,B3_2x2_P8_1,P8,20,Pocillopora,TL_ciliate,Chronic,,Might just be algal contact?
-2022-08-02,B3,2x2,B3_2x2_P20_1,P20,25,Pocillopora,Bleach_base_or_side,NA,,Super mild--don't know if we should count this
-2022-08-02,B3,2x2,B3_2x2_P34_1,P34,20,Pocillopora,TL_ciliate,Subacute,,
-2022-08-02,B3,2x2,B3_2x2_P11_1,P11,25,Pocillopora,TL_ciliate,Chronic,,Could it just be from the algae?
-2022-08-02,B3,2x2,B3_2x2_P13_1,P13,25,Pocillopora,TL_ciliate_slow,Chronic,,Most of this colony dead. Not sure this counts as recent TL?
-2022-08-02,B3,2x2,B3_2x2_P2_1,P2,10,Pocillopora,TL_ciliate,Subacute,,
-2022-08-02,B3,2x2,B3_2x2_P1_1,P1,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,2x2,B3_2x2_P18_1,P18,15,Pocillopora,TL_ciliate,Subacute,,
-2022-08-02,B3,2x2,B3_2x2_P15_1,P15,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,open,B3_open_Pav_EH1_1,NA,10,Pavona,EH,Severe,,
-2022-08-02,B3,open,B3_open_Pav_EH2_1,NA,20,Pavona,EH,Medium,,
-2022-08-02,B3,open,B3_open_Leptoser_EH1_1,NA,20,Leptastrea,EH,Medium,,
-2022-08-02,B3,open,B3_open_Pav_EH3_1,NA,5,Pavona,EH,Mild,,
-2022-08-02,B3,open,B3_open_P24_1,P24,25,Pocillopora,TL_ciliate,Chronic,,
-2022-08-02,B3,open,B3_open_P25_1,P25,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,open,B3_open_P25_1,P25,25,Pocillopora,TL,Subacute,,TL from neighboring colony
-2022-08-02,B3,open,B3_open_P26_detach_1,P26,30,Pocillopora,TL,Acute,,Detached
-2022-08-02,B3,open,B3_open_P20_1,P20,15,Pocillopora,TL,Subacute,,
-2022-08-02,B3,open,B3_open_P28_1,P28,20,Pocillopora,TL_ciliate,Chronic,,
-2022-08-02,B3,open,B3_open_P28_1,P28,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,open,B3_open_P19_1,P19,25,Pocillopora,TL_ciliate,Chronic,,
-2022-08-02,B3,open,B3_open_P16_1,P16,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,open,B3_open_P17_1,P17,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,open,B3_open_P6_1,P6,10,Pocillopora,TL_ciliate,Chronic,,
-2022-08-02,B3,open,B3_open_P3_1,P3,20,Pocillopora,TL,Acute,,By Halimeda
-2022-08-02,B3,open,B3_open_P11_1,P11,20,Pocillopora,Bleach_base_or_side,NA,,By Halimeda
-2022-08-02,B3,open,B3_open_P5_1,P5,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,1x1,B3_1x1_P29_1,P29,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,1x1,B3_1x1_P29_1,P29,10,Pocillopora,TL,Subacute,,
-2022-08-02,B3,1x1,B3_1x1_P2_1,P2,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,1x1,B3_1x1_P35_1,P35,5,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,1x1,B3_1x1_Astrea_TL1_1,NA,10,Astrea,TL,Chronic,,
-2022-08-02,B3,1x1,B3_1x1_P28_1,P28,15,Pocillopora,Bleach_base_or_side,NA,,Definitely not about light here I wouldn't think?
-2022-08-02,B3,1x1,B3_1x1_P3_1,P3,15,Pocillopora,TL,Subacute,,
-2022-08-02,B3,1x1,B3_1x1_P5_1,P5,20,Pocillopora,TL,Subacute,,
-2022-08-02,B3,1x1,B3_1x1_A6_1,A6,10,Acropora,TL,Subacute,,
-2022-08-02,B3,1x1,B3_1x1_Montip_TL1_1,NA,15,Montipora,TL,Acute,,Maybe some ciliates in there?
-2022-08-02,B3,1x1,B3_1x1_P9_1,P9,10,Pocillopora,Bleach_base_or_side,NA,,Bleached by Halimeda
-2022-08-02,B3,1x1,B3_1x1_P13_1,P13,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,1x1,B3_1x1_P13_1,P13,10,Pocillopora,Bleached_tips,NA,,
-2022-08-02,B3,1x1,B3_1x1_P23_1,P23,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,1x1,B3_1x1_P16_1,P16,30,Pocillopora,TL,Subacute,,
-2022-08-02,B3,1x1,B3_1x1_P21_1,P21,15,Pocillopora,Bleached_tips,NA,,
-2022-08-02,B3,1x1,B3_1x1_P22_1,P22,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,3x3,B3_3x3_Montip_TL1_1,NA,15,Montipora,TL,Chronic,,
-2022-08-02,B3,3x3,B3_3x3_Pav_EH1_1,NA,20,Pavona,EH,Medium,,
-2022-08-02,B3,3x3,B3_3x3_P6_1,P6,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-02,B3,3x3,B3_3x3_P18_1,P18,25,Pocillopora,TL,Subacute,,
-2022-08-02,B3,3x3,B3_3x3_P19_1,P19,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,C1,2x2,C1_2x2_P2_1,P2,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,C1,2x2,C1_2x2_P3_1,P3,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,C1,2x2,C1_2x2_P5_1,P5,30,Pocillopora,Bleach_base_or_side,NA,,COOL! Bleached bases and TL that seems to spread to P4 which spreads to tips of A2
-2022-08-03,C1,2x2,C1_2x2_P5_1,P5,30,Pocillopora,TL,Chronic,,Might be subacute
-2022-08-03,C1,2x2,C1_2x2_P4_1,P4,30,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,C1,2x2,C1_2x2_A2_1,A2,20,Acropora,Bleach_base_or_side,NA,,
-2022-08-03,C1,2x2,C1_2x2_A2_1,A2,20,Acropora,TL,Chronic,,
-2022-08-03,C1,2x2,C1_2x2_Pav_EH1_1,NA,10,Pavona,EH,Mild,,
-2022-08-03,C1,2x2,C1_2x2_Pav_EH2_1,NA,10,Pavona,EH,Mild,,Not sure we should even count this?
-2022-08-03,C1,2x2,C1_2x2_Pav_EH3_1,NA,15,Pavona,EH,Severe,,
-2022-08-03,C1,2x2,C1_2x2_Pav_EH4_1,NA,10,Pavona,EH,Mild,,
-2022-08-03,C1,2x2,C1_2x2_Pav_P9_1,P9,10,Pocillopora,TL,Acute,,
-2022-08-03,C1,2x2,C1_2x2_Pav_P8_1,P8,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,C1,2x2,C1_2x2_Pav_P18_1,P18,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,C1,2x2,C1_2x2_Pav_P18_1,P18,20,Pocillopora,TL,Subacute,,What to do about tissue loss within the bleaching? Have been countint that but not sure
-2022-08-03,C1,2x2,C1_2x2_Pav_P15_1,P15,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,C1,2x2,C1_2x2_Pav_P11_1,P11,10,Pocillopora,TL,Chronic,,
-2022-08-03,C1,2x2,C1_2x2_Pav_P13_1,P13,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,C1,2x2,C1_2x2_Por_TL1_1,NA,5,Porites,TL,Subacute,,
-2022-08-03,C1,2x2,C1_2x2_Por_Montip_TL1_1,NA,15,Montipora,TL,Chronic,,
-2022-08-03,C1,2x2,C1_2x2_Por_Montip_TL1_4,NA,10,Montipora,TL,Chronic,,
-2022-08-03,C1,3x3,C1_3x3_P1_1,P1,10,Pocillopora,TL,Chronic,,
-2022-08-03,C1,3x3,C1_3x3_P13_1,P13,20,Pocillopora,TL,Acute,,
-2022-08-03,C1,3x3,C1_3x3_P12_1,P12,15,Pocillopora,Bleach_base_or_side,NA,,What's up with P3? Not sure where the photo is for that
-2022-08-03,C1,3x3,C1_3x3_P5_1,P5,15,Pocillopora,Bleach_base_or_side,NA,,Not including P18 because such a weak bleach
-2022-08-03,C1,3x3,C1_3x3_Pav_EH1_1,NA,10,Pavona,EH,Mild,,
-2022-08-03,C1,open,C1_open_Pav_EH1_1,NA,15,Pavona,EH,Severe,,
-2022-08-03,C1,open,C1_open_Pav_EH2_1,NA,10,Pavona,EH,Severe,,
-2022-08-03,C1,open,C1_open_Pav_EH3_1,NA,5,Pavona,EH,Mild,,
-2022-08-03,C1,open,C1_open_Pav_EH4_1,NA,10,Pavona,EH,Mild,,
-2022-08-03,C1,open,C1_open_P3_1,P3,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,C1,open,C1_open_Por_TL1_1,NA,20,Porites,TL,Subacute,,
-2022-08-03,C1,open,C1_open_P11_1,P11,20,Pocillopora,TL_ciliate,Subacute,,
-2022-08-03,C1,open,C1_open_P18_1,P18,15,Pocillopora,TL,Chronic,,
-2022-08-03,D2,2x2,D2_2x2_Montip_TL1_1,NA,10,Montipora,TL,Subacute,,
-2022-08-03,D2,2x2,D2_2x2_P3_1,P3,20,Pocillopora,TL,Subacute,,
-2022-08-03,D2,2x2,D2_2x2_P8_1,P8,25,Pocillopora,TL_ciliate,Chronic,,
-2022-08-03,D2,2x2,D2_2x2_P10_1,P10,15,Pocillopora,TL,Chronic,,
-2022-08-03,D2,2x2,D2_2x2_P11_1,P11,30,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,D2,2x2,D2_2x2_P13_1,P13,15,Pocillopora,TL_ciliate,Chronic,,
-2022-08-03,D2,2x2,D2_2x2_P15_1,P15,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,D2,2x2,D2_2x2_P15_1,P15,15,Pocillopora,TL,Subacute,,
-2022-08-03,D2,2x2,D2_2x2_P21_1,P21,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,D2,2x2,D2_2x2_P21_1,P21,15,Pocillopora,TL_ciliate,Subacute,,
-2022-08-03,D2,2x2,D2_2x2_P26_1,P26,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,D2,2x2,D2_2x2_Pav_EH1_1,NA,10,Pavona,EH,Medium,,
-2022-08-03,D2,2x2,D2_2x2_Pav_EH1_4,NA,15,Pavona,EH,Mild,,
-2022-08-03,D2,2x2,D2_2x2_Pav_EH2_1,NA,10,Pavona,EH,Medium,,
-2022-08-03,D2,2x2,D2_2x2_Pav_EH3_1,NA,10,Pavona,EH,Medium,,
-2022-08-03,A1,2x2,A1_2x2_P3_1,P3,25,Pocillopora,Bleach_base_or_side,NA,,Stuff has gotten out of order… need to I guess keep going by date modified but then maybe check it? Did all of D2 2x2 sorted by Name because seeemed weird..
-2022-08-03,A1,2x2,A1_2x2_P12_1,P12,10,Pocillopora,TL,Subacute,,
-2022-08-03,A1,2x2,A1_2x2_P4_1,P4,10,Pocillopora,TL_ciliate,Chronic,,
-2022-08-03,A1,2x2,A1_2x2_Pav_EH1_1,NA,10,Pavona,EH,Medium,,P. varians not chiriquensis
-2022-08-03,A1,2x2,A1_2x2_Pav_EH2_1,NA,15,Pavona,TL,Subacute,,Not counting P5 because bleaching is so chill not noticable
-2022-08-03,A1,2x2,A1_2x2_Pav_P9_1,P9,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,A1,2x2,A1_2x2_Pav_P13_1,P13,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,A1,2x2,A1_2x2_Pav_EH3_1,NA,10,Pavona,EH,Mild,,
-2022-08-03,A1,2x2,A1_2x2_Pav_EH4_1,NA,10,Pavona,EH,Medium,,
-2022-08-03,A1,1x1,A1_1x1_P12_1,P12,15,Pocillopora,Bleach_base_or_side,NA,,Looks like it might have spread from P1?
-2022-08-03,A1,1x1,A1_1x1_P1_1,P1,35,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,A1,1x1,A1_1x1_P1_1,P1,35,Pocillopora,TL,Chronic,,
-2022-08-03,A1,1x1,A1_1x1_P7_1,P7,25,Pocillopora,TL,Chronic,,On base
-2022-08-03,A1,1x1,A1_1x1_P3_1,P3,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,A1,1x1,A1_1x1_Montip_TL1_1,NA,25,Montipora,TL,Subacute,,
-2022-08-03,A1,1x1,A1_1x1_Montip_TL2_1,NA,5,Montipora,TL,Subacute,,Might actually be chronic--but is a big portion of the colony since it's small
-2022-08-03,A1,1x1,A1_1x1_Montip_TL3_1,NA,30,Montipora,TL,Acute,,
-2022-08-03,A1,1x1,A1_1x1_P5_1,P5,5,Pocillopora,TL,Subacute,,
-2022-08-03,A1,1x1,A1_1x1_P5_1,P5,5,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,A1,1x1,A1_1x1_P9_1,P9,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,A1,1x1,A1_1x1_P9_1,P9,20,Pocillopora,Bleached_tips,NA,,
-2022-08-03,A1,1x1,A1_1x1_P10_1,P10,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,A1,1x1,A1_1x1_P15_1,P15,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,A1,1x1,A1_1x1_P17_1,P17,25,Pocillopora,TL_ciliate,Chronic,,"Didn't include P13 or P14 because wrote ""probably fine"" and didn't look very serious"
-2022-08-03,A1,1x1,A1_1x1_P11_1,P11,25,Pocillopora,TL_ciliate,Chronic,,
-2022-08-03,A1,1x1,A1_1x1_P11_1,P11,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-03,A1,1x1,A1_1x1_Astrea_TL1_1,NA,5,Astrea,TL,Chronic,,Clear TL progressive pattern
-2022-08-04,A2,2x2,A2_2x2_P39_1,P39,5,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,2x2,A2_2x2_P3_1,P3,35,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,2x2,A2_2x2_P3_1,P3,35,Pocillopora,TL,Subacute,,
-2022-08-04,A2,2x2,A2_2x2_P12_2,P12,15,Pocillopora,TL,Chronic,,
-2022-08-04,A2,2x2,A2_2x2_P12_2,P12,15,Pocillopora,Bleach_base_or_side,NA,,"Didn't include P5 bleaching because wrote ""chill""--maybe should do this more systematically?"
-2022-08-04,A2,2x2,A2_2x2_P13_1,P13,40,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,2x2,A2_2x2_P11_1,P11,20,Pocillopora,Bleach_base_or_side,NA,,"This one said ""chill"" but didn't look it so included. "
-2022-08-04,A2,2x2,A2_2x2_P10_1,P10,10,Pocillopora,TL_ciliate,Subacute,,Between Chronic and Subacute actually I think
-2022-08-04,A2,2x2,A2_2x2_P9_1,P9,20,Pocillopora,Bleach_base_or_side,Chill,,"From here on out putting these as ""chill"". Bleachy where it touched the Lobophora"
-2022-08-04,A2,2x2,A2_2x2_A5_4,A5,5,Acropora,Bleached_tips,NA,,There are two time stamps on this for 1/2 and 1/2. Went back to get all
-2022-08-04,A2,2x2,A2_2x2_P21_1,P21,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,2x2,A2_2x2_P23_1,P23,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,2x2,A2_2x2_P23_1,P23,25,Pocillopora,TL,Chronic,,
-2022-08-04,A2,2x2,A2_2x2_P24_1,P24,20,Pocillopora,Bleach_base_or_side,Chill,,
-2022-08-04,A2,2x2,A2_2x2_P24_1,P24,20,Pocillopora,Bleached_tips,NA,,
-2022-08-04,A2,2x2,A2_2x2_P26_1,P26,20,Pocillopora,Bleach_base_or_side,NA,,"This one said ""chill"" but was very white under there.."
-2022-08-04,A2,3x3,A2_3x3_P28_1,P28,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,3x3,A2_3x3_P20_1,P20,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,3x3,A2_3x3_Montip_TL1_1,NA,20,Montipora,TL,Chronic,,
-2022-08-04,A2,3x3,A2_3x3_P12_1,P12,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,3x3,A2_3x3_P12_1,P12,15,Pocillopora,TL_ciliate,Chronic,,This is on the tips.. Interesting. Some of these bleached tips might actually be TL
-2022-08-04,A2,3x3,A2_3x3_P12_1,P12,15,Pocillopora,Bleached_tips,NA,,
-2022-08-04,A2,3x3,A2_3x3_P9_1,P9,25,Pocillopora,TL,Chronic,,Kinda subacute vibes though also
-2022-08-04,A2,3x3,A2_3x3_P8_1,P8,15,Pocillopora,Bleached_tips,NA,,
-2022-08-04,A2,3x3,A2_3x3_P8_1,P8,15,Pocillopora,TL,Chronic,,Kinda subacute vibes though also
-2022-08-04,A2,3x3,A2_3x3_P2_1,P2,20,Pocillopora,TL_ciliate,,,On the tips again..
-2022-08-04,A2,3x3,A2_3x3_P2_1,P2,20,Pocillopora,Bleached_tips,NA,,
-2022-08-04,A2,3x3,A2_3x3_P7_1,P7,15,Pocillopora,TL_ciliate,Chronic,,Ciliates are light
-2022-08-04,A2,3x3,A2_3x3_P6_1,P6,20,Pocillopora,TL_ciliate,Chronic,,Kinda subacute vibes though also
-2022-08-04,A2,3x3,A2_3x3_P10_1,P10,25,Pocillopora,TL_ciliate,Chronic,,
-2022-08-04,A2,3x3,A2_3x3_P13_1,P13,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,3x3,A2_3x3_P23_1,P23,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,3x3,A2_3x3_P3_1,P3,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,3x3,A2_3x3_P3_1,P3,15,Pocillopora,TL,Chronic,,
-2022-08-04,A2,3x3,A2_3x3_P3_1,P3,15,Pocillopora,Bleached_tips,NA,,This is really TL I'm just counting bleached tips as a category just to track this
-2022-08-04,A2,3x3,A2_3x3_P15_1,P15,20,Pocillopora,TL_ciliate,Chronic,,
-2022-08-04,A2,3x3,A2_3x3_P16_1,P16,20,Pocillopora,TL,Subacute,,From Halimeda and Lobophora--bordering Acute?
-2022-08-04,A2,3x3,A2_3x3_P25_1,P25,25,Pocillopora,TL_ciliate,Chronic,,I guess Chronic but it's also hard when it's like all white? Why does that happen?
-2022-08-04,A2,open,A2_open_A4_1,A4,10,Acropora,Bleach_base_or_side,NA,,The bleached base in Acropora does look different (like the verrucae thingies are white?)
-2022-08-04,A2,open,A2_open_P26_1,P26,20,Pocillopora,Bleach_base_or_side,Chill,,Small bleached patch--I think this is just being shaded by the dead skeleton?
-2022-08-04,A2,open,A2_open_P13_1,P13,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,open,A2_open_Pav_EH1_1,NA,20,Pavona,EH,Medium,,
-2022-08-04,A2,open,A2_open_P12_1,P12,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,open,A2_open_P1_1,P1,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,open,A2_open_P7_1,P7,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,open,A2_open_P10_1,P10,25,Pocillopora,TL_ciliate,Subacute,,
-2022-08-04,A2,open,A2_open_P17_1,P17,30,Pocillopora,TL_ciliate,Subacute,,
-2022-08-04,A2,open,A2_open_Leptoser_TL1_1,NA,5,Leptoseris,TL,Chronic,,
-2022-08-04,A2,open,A2_open_P3_1,P33,10,Pocillopora,TL,Chronic,,Just trusting the notes on this one
-2022-08-04,A2,open,A2_open_P3_1,P33,10,Pocillopora,Bleach_base_or_side,Chill,,"Not even on the notes--just put it as a ""chill"""
-2022-08-04,A2,open,A2_open_P20_1,P20,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,open,A2_open_P22_1,P22,20,Pocillopora,TL_maybePred,Chronic,,Not sure about the snail situation
-2022-08-04,A2,open,A2_open_Pav_EH2_1,NA,10,Pavona,EH,Mild,,
-2022-08-04,A2,open,A2_open_A2_1,A2,15,Acropora,TL,Subacute,,
-2022-08-04,A2,open,A2_open_P18_1,P18,35,Pocillopora,Bleach_base_or_side,Chill,,
-2022-08-04,A2,open,A2_open_P31_1,P31,5,Pocillopora,Bleach_base_or_side,Chill,,Literally can't see anything
-2022-08-04,A2,open,A2_open_P9_1,P9,25,Pocillopora,Bleach_base_or_side,Chill,,
-2022-08-04,A2,open,A2_open_P8_1,P8,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,open,A2_open_P5_1,P5,20,Pocillopora,Bleach_base_or_side,Chill,,I think Chill but maybe need to make better rules about this
-2022-08-04,A2,open,A2_open_P4_1,P4,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,A2,open,A2_open_P3_1_detached,P3,10,Pocillopora,TL,Subacute,,
-2022-08-04,D2,1x1,D2_1x1_P15_1,P15,25,Pocillopora,TL,Subacute,,What to do about the purple stuff? This also had chronic TL. Going by the biggest TL amount
-2022-08-04,D2,1x1,D2_1x1_P14_1,P14,40,Pocillopora,TL,Chronic,,I think--could also be a band of bleaching?
-2022-08-04,D2,1x1,D2_1x1_P14_1,P14,40,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,D2,1x1,D2_1x1_P17_1,P17,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,D2,1x1,D2_1x1_P17_1,P17,20,Pocillopora,Bleached_tips,NA,,
-2022-08-04,D2,1x1,D2_1x1_P11_1,P11,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,D2,1x1,D2_1x1_betP6nP11_2,P10,10,Pocillopora,TL_ciliate,Chronic,,Maybe subacute?
-2022-08-04,D2,1x1,D2_1x1_P18_1,P18,10,Pocillopora,TL,Subacute,,At base
-2022-08-04,D2,1x1,D2_1x1_P8_1,P8,5,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,D2,1x1,D2_1x1_P3_1,P3,25,Pocillopora,TL,Subacute,,Like half is dead. This might really be more like acute?
-2022-08-04,D2,1x1,D2_1x1_P3_1,P3,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,D2,1x1,D2_1x1_P3_1,P3,25,Pocillopora,TL_ciliate,Chronic,,Included this as a row because it seemed so different? Not sure if that's right
-2022-08-04,D2,1x1,D2_1x1_P6_1,P6,30,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-04,D2,1x1,D2_1x1_P6_1,P6,30,Pocillopora,TL,Subacute,,I think in photo D2_1x1_P6_8
-2022-08-04,D2,1x1,D2_1x1_P6_9,P24,20,Pocillopora,Bleach_base_or_side,Chill,,Photo is labelled incorrectly
-2022-08-04,D2,1x1,D2_1x1_P24_1,P21,15,Pocillopora,Bleach_base_or_side,NA,,Photo is also labelled incorrectly
-2022-08-04,D2,1x1,D2_1x1_P21_1,P2,25,Pocillopora,TL,Chronic,,Photo is also labelled incorrectly
-2022-08-04,D2,1x1,D2_1x1_P21_1,P2,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,A1,open,A1_open_P5_1,P5,30,Pocillopora,TL_ciliate,Subacute,,
-2022-08-06,A1,open,A1_open_Pav_EH1_1,NA,15,Pavona,EH,Severe,,I guess these are probably connected underneath?
-2022-08-06,A1,open,A1_open_Pav_EH2_1,NA,5,Pavona,EH,Severe,,
-2022-08-06,A1,open,A1_open_Pav_EH2_1,NA,5,Pavona,EH,Severe,,Also counting the lil guy next to this one as separate
-2022-08-06,A1,open,A1_open_Pav_EH3_1,NA,15,Pavona,EH,Severe,,
-2022-08-06,A1,open,A1_open_P12_1,P12,20,Pocillopora,TL,Chronic,,
-2022-08-06,A1,open,A1_open_Pav_EH4_1,NA,10,Pavona,EH,Severe,,
-2022-08-06,A1,open,A1_open_P8_1,P8,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,A1,open,A1_open_P21_1,P21,25,Pocillopora,TL,Chronic,,
-2022-08-06,A1,3x3,A1_3x3_P1_1,P1,25,Pocillopora,TL_ciliate,Chronic,,Made up of a bunch of little colonies/remnants
-2022-08-06,A1,3x3,A1_3x3_Pav_EH1_1,NA,10,Pavona,EH,Mild,,
-2022-08-06,A1,3x3,A1_3x3_Pav_EH2_2,NA,5,Pavona,EH,Medium,,
-2022-08-06,A1,3x3,A1_3x3_P3_1,P3,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,A1,3x3,A1_3x3_P6_1,P6,35,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,A1,3x3,A1_3x3_P6_1,P6,35,Pocillopora,TL,Subacute,,By Halimeda and dead skeleton generally
-2022-08-06,A1,3x3,A1_3x3_P5_1,P5,20,Pocillopora,TL_ciliate,Subacute,,
-2022-08-06,A1,3x3,A1_3x3_Pav_EH3_1,NA,10,Pavona,EH,Mild,,
-2022-08-06,A1,3x3,A1_3x3_P13_1,P13,25,Pocillopora,Bleach_base_or_side,NA,,Purple tissue again
-2022-08-06,A1,3x3,A1_3x3_P15_1,P15,15,Pocillopora,Bleach_base_or_side,NA,,Tip where near the other coral
-2022-08-06,A1,3x3,A1_3x3_P9_1,P9,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,A1,3x3,A1_3x3_P9_1,P9,20,Pocillopora,TL,Subacute,,
-2022-08-06,A1,3x3,A1_3x3_P8_1,P8,20,Pocillopora,TL_ciliate,Chronic,,
-2022-08-06,A2,2x2,A2_2x2_A5_1,A5,5,Acropora,TL,Chronic,,Included again for bleached tips
-2022-08-06,A2,1x1,A2_1x1_P21_1,P21,40,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,A2,1x1,A2_1x1_P21_1,P21,40,Pocillopora,TL,Subacute,,
-2022-08-06,A2,1x1,A2_1x1_P6_1,P6,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,A2,1x1,A2_1x1_P6_1,P6,20,Pocillopora,TL,Chronic,,
-2022-08-06,A2,1x1,A2_1x1_P5_1,P5,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,A2,1x1,A2_1x1_P4_1,P4,15,Pocillopora,Bleach_base_or_side,Chill,,I acutally think not? Hard to see
-2022-08-06,A2,1x1,A2_1x1_P16_1,P16,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,A2,1x1,A2_1x1_P17_1,P17,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,A2,1x1,A2_1x1_P17_1,P17,20,Pocillopora,TL,Chronic,,
-2022-08-06,A2,1x1,A2_1x1_P19_1,P19,30,Pocillopora,Bleach_base_or_side,NA,,Called chill but not sure if it really was? Borderline
-2022-08-06,A2,1x1,A2_1x1_P18_1,P18,35,Pocillopora,Bleach_base_or_side,NA,,Base and on the tip
-2022-08-06,A2,1x1,A2_1x1_P12_1,P12,15,Pocillopora,Bleach_base_or_side,NA,,"Said ""chill"" but idk I'm not counting it as such"
-2022-08-06,A2,1x1,A2_1x1_P11_1,P11,20,Pocillopora,TL,Chronic,,
-2022-08-06,A2,1x1,A2_1x1_P10_1,P10,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,A2,1x1,A2_1x1_P9_1,P9,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,A2,1x1,A2_1x1_P9_1,P9,15,Pocillopora,TL,Chronic,,
-2022-08-06,A2,1x1,A2_1x1_P3_1,P3,40,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,A2,1x1,A2_1x1_P3_1,P3,40,Pocillopora,TL_ciliate,Chronic,,
-2022-08-06,D2,open,D2_open_Pav_EH1_1,NA,5,Pavona,EH,Mild,,
-2022-08-06,D2,open,D2_open_Pav_EH2_2,NA,5,Pavona,EH,Mild,,
-2022-08-06,D2,open,D2_open_Pav_EH2_2,NA,5,Pavona,EH,Mild,,
-2022-08-06,D2,open,D2_open_Pav_EH2_2,NA,5,Pavona,EH,Mild,,These are very small--didn't count them as separate intitially but I think so?
-2022-08-06,D2,open,D2_open_Pav_EH3_2,NA,15,Pavona,EH,Severe,,Or maybe medium?
-2022-08-06,D2,open,D2_open_Pav_EH4_1,NA,5,Pavona,EH,Mild,,
-2022-08-06,D2,open,D2_open_P7_1,P7,25,Pocillopora,TL_ciliate,Chronic,,
-2022-08-06,D2,open,D2_open_belowP14_detach_1,P13,15,Pocillopora,TL_ciliate,Chronic,,
-2022-08-06,D2,open,D2_open_Pav_EH5_1,NA,5,Pavona,EH,Mild,,
-2022-08-06,D2,open,D2_open_Pav_EH6_1,NA,5,Pavona,EH,Medium,,
-2022-08-06,D2,open,D2_open_P12_1,P12,30,Pocillopora,TL_ciliate,Chronic,,
-2022-08-06,D2,open,D2_open_P4_1,P4,30,Pocillopora,TL,Chronic,,Purple skeleton also
-2022-08-06,D2,open,D2_open_Pav_EH7_1,NA,20,Pavona,EH,Severe,,
-2022-08-06,D4,2x2,D4_2x2_Montip_TL1_1,NA,20,Montipora,TL,Subacute,,
-2022-08-06,D4,2x2,D4_2x2_P3_1,P3,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,D4,2x2,D4_2x2_P2_1,P2,20,Pocillopora,Bleach_base_or_side,NA,,Not counting the TL here
-2022-08-06,D4,2x2,D4_2x2_A3_1,A3,20,Acropora,Bleach_base_or_side,NA,,
-2022-08-06,D4,2x2,D4_2x2_Montip_TL2_1,NA,30,Montipora,TL,Chronic,,
-2022-08-06,D4,2x2,D4_2x2_P7_1,P7,35,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,D4,2x2,D4_2x2_P5_1,P5,35,Pocillopora,TL,Subacute,,
-2022-08-06,D4,2x2,D4_2x2_P5_1,P5,35,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,D4,2x2,D4_2x2_P6_1,P6,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,D4,2x2,D4_2x2_P9_1,P9,15,Pocillopora,Bleach_base_or_side,NA,,Is this chill?
-2022-08-06,D4,2x2,D4_2x2_P21_1,P21,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,D4,2x2,D4_2x2_P20_1,P20,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,D4,2x2,D4_2x2_P20_1,P20,20,Pocillopora,Bleached_tips,NA,,
-2022-08-06,D4,2x2,D4_2x2_P11_1,P11,15,Pocillopora,Bleach_base_or_side,Bleach_base_or_side,,
-2022-08-06,D4,2x2,D4_2x2_A2_1,A2,20,Acropora,Bleach_base_or_side,NA,,By Halimeda
-2022-08-06,D4,2x2,D4_2x2_P17_1,P17,10,Pocillopora,Bleach_base_or_side,NA,,By Halimeda
-2022-08-06,D4,2x2,D4_2x2_P14_1,P14,45,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-06,D4,2x2,D4_2x2_P14_1,P14,45,Pocillopora,TL,Subacute,,
-2022-08-06,D4,2x2,D4_2x2_P16_1,P16,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D4,open,D4_open_P22_1,P22,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D4,open,D4_open_P22_1,P22,20,Pocillopora,TL_ciliate,Chronic,,
-2022-08-08,D4,open,D4_open_P23_1,P23,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D4,open,D4_open_P23_1,P23,20,Pocillopora,TL_ciliate,Chronic,,Maybe subacute? Gotta get better at this
-2022-08-08,D4,open,D4_open_Pav_EH1_1,NA,20,Pavona,EH,Mild,,
-2022-08-08,D4,open,D4_open_P25_1,P25,25,Pocillopora,Bleach_base_or_side,Chill,,
-2022-08-08,D4,open,D4_open_P24_1,P24,15,Pocillopora,Bleach_base_or_side,Chill,,
-2022-08-08,D4,open,D4_open_P11_1,P11,15,Pocillopora,TL_ciliate,Chronic,,Might be more subacute idk but the branching pattern makes it difficult
-2022-08-08,D4,open,D4_open_P11_1,P11,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D4,open,D4_open_P10_1,P10,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D4,open,D4_open_P12_1,P12,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D4,open,D4_open_Pav_EH2_1,NA,10,Pavona,EH,Severe,,
-2022-08-08,D4,open,D4_open_P9_1,P9,15,Pocillopora,TL,Chronic,,By Lobophora--might be Ciliate tips?
-2022-08-08,D4,open,D4_open_P2_1,P2,20,Pocillopora,TL_ciliate,Chronic,,Coming off the scuzzy green algae
-2022-08-08,D4,open,D4_open_P1_1,P1,15,Pocillopora,TL,Chronic,,By Lobophora. Also purpley
-2022-08-08,D4,open,D4_open_P5_1,P5,15,Pocillopora,TL_ciliate,Chronic,,
-2022-08-08,D4,open,D4_open_P6_1,P6,15,Pocillopora,TL,Subacute,,
-2022-08-08,D4,open,D4_open_P6_1,P6,15,Pocillopora,Bleach_base_or_side,NA,,Not sure if this is the right way to describe this? Not like super crazy bleach base
-2022-08-08,D4,open,D4_open_P8_1,P8,30,Pocillopora,TL,Subacute,,
-2022-08-08,D4,open,D4_open_P8_1,P8,30,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D4,open,D4_open_P14_1,P14,20,Pocillopora,Bleach_base_or_side,Chill,,Maybe more serious than chill?
-2022-08-08,D4,open,D4_open_P16_1,P16,20,Pocillopora,Bleach_base_or_side,NA,,There's TL in this… but isn't like TL TL? Not sure 
-2022-08-08,D4,open,D4_open_P19_1,P19,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D4,open,D4_open_P42_1,P42,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D2,3x3,D2_3x3_P25_1,P25,10,Pocillopora,TL,Chronic,,With purple
-2022-08-08,D2,3x3,D2_3x3_Pav_EH1_1,NA,10,Pavona,EH,Severe,,
-2022-08-08,D2,3x3,D2_3x3_P16_1,P16,15,Pocillopora,TL,Subacute,,
-2022-08-08,D2,3x3,D2_3x3_P9_1,P9,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D2,3x3,D2_3x3_P9_1,P9,15,Pocillopora,TL,Subacute,,By Halimeda
-2022-08-08,D2,3x3,D2_3x3_Astrea_Bleach1_1_hardtoseeinphoto,NA,10,Astrea,Bleach_base_or_side,NA,,
-2022-08-08,D2,3x3,D2_3x3_Astrea_Bleach1_1_hardtoseeinphoto,NA,5,Astrea,Bleach_base_or_side,NA,,
-2022-08-08,D2,3x3,D2_3x3_Astrea_Bleach1_1_hardtoseeinphoto,NA,10,Astrea,Bleach_base_or_side,NA,,
-2022-08-08,D2,3x3,D2_3x3_P1_1,P1,20,Pocillopora,Bleach_base_or_side,NA,,Some TL in it
-2022-08-08,D2,3x3,D2_3x3_P2_1,P2,30,Pocillopora,Bleach_base_or_side,NA,,By Lobophora. But this is also TL For sure??
-2022-08-08,D2,3x3,D2_3x3_P3_1,P3,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D2,3x3,D2_3x3_Millep_TL1_1,NA,10,Millepora,TL,Chronic,,
-2022-08-08,D2,3x3,D2_3x3_P5_1,P5,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D2,3x3,D2_3x3_P5_1,P5,20,Pocillopora,TL_ciliate,Chronic,,
-2022-08-08,D2,3x3,D2_3x3_P11_1,P11,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D2,3x3,D2_3x3_P10_1,P10,10,Pocillopora,Bleach_base_or_side,NA,,No photo? Not sure what happened
-2022-08-08,D2,3x3,D2_3x3_P20_1,P20,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D2,3x3,D2_3x3_P20_1,P20,20,Pocillopora,TL,Chronic,,
-2022-08-08,D2,3x3,D2_3x3_P22_1,P22,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-08,D2,3x3,D2_3x3_P22_1,P22,20,Pocillopora,TL,Subacute,,Coming from Lobophora
-2022-08-08,B4,3x3,B4_3x3_Pav_EH1_1,NA,10,Pavona,EH,Severe,,
-2022-08-08,B4,3x3,B4_3x3_Pav_EH2_1,NA,10,Pavona,EH,Mild,,
-2022-08-08,B4,3x3,B4_3x3_Pav_EH3_1,NA,15,Pavona,EH,Medium,,
-2022-08-08,B4,3x3,B4_3x3_Pav_EH4_1,NA,10,Pavona,EH,Mild,,
-2022-08-08,B4,3x3,B4_3x3_Pav_EH5_1,NA,10,Pavona,EH,Medium,,
-2022-08-08,B4,3x3,B4_3x3_Por_TL1_1,NA,10,Porites,TL,NA,,I don't think this is TL?
-2022-08-08,B4,3x3,B4_3x3_Goniast_Bleach1_1,NA,10,Goniastrea,Bleach_base_or_side,NA,,
-2022-08-01,D4,1x1,D4_1x1_Aug1_A4_Bleach_1,A4,20,Acropora,Bleach_base_or_side,NA,,This was from the initial D4 surveys
-2022-08-01,D4,1x1,D4_1x1_Aug1_P3_TL_1,P3,25,Pocillopora,TL,Subacute,,
-2022-08-01,D4,1x1,D4_1x1_Aug1_P5_Bleach_1,P5,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,D4,1x1,D4_1x1_Aug1_P6_Bleach_1,P6,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,D4,1x1,D4_1x1_Aug1_P11_Bleach_1_partloose,P11,30,Pocillopora,Bleach_base_or_side,NA,,This is pretty insane
-2022-08-01,D4,1x1,D4_1x1_Aug1_P12_TL_1,P12,15,Pocillopora,TL,Acute,,By Halimeda and stuff?
-2022-08-01,D4,1x1,D4_1x1_Aug1_P14_SEB_1,P14,25,Pocillopora,TL_ciliate,Chronic,,Also in: D4_1x1_Aug1_P18_TLSEB_1
-2022-08-01,D4,1x1,D4_1x1_Aug1_P16_Bleach_1,P16,10,Pocillopora,Bleached_tips,NA,,Could some of these just be predation?
-2022-08-01,D4,1x1,D4_1x1_Aug1_Por_Bleach1_1,NA,10,Porites,Bleach_base_or_side,NA,,
-2022-08-01,D4,1x1,D4_1x1_Aug1_PunDiffuser_Bleach_1,PX,5,Pocillopora,Bleach_base_or_side,NA,,Could this be P6?
-2022-08-01,D4,3x3,D4_3x3_Aug1_A3_Bleach_1,A3,10,Acropora,TL,Subacute,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P4_Bleach_1,P4,30,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P4_Bleach_1,P4,30,Pocillopora,TL,Subacute,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P7_Bleach_1,P7,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P13_Bleach_1,P13,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P14_Bleach_1,P14,25,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P14_Bleach_1,P14,25,Pocillopora,TL_ciliate,Chronic,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P16_TL_1,P16,15,Pocillopora,TL,Chronic,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P20?_Bleach_1,P20,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P20?_Bleach_1,P20,20,Pocillopora,TL,Chronic,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P21_Bleach_1,P21,15,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P22_Bleach_1,P22,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P26?_Bleach_1,P26,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P30_Bleach_1,P30,20,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P31_Bleach_1,P31,10,Pocillopora,Bleach_base_or_side,NA,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_P31_Bleach_1,P31,10,Pocillopora,TL,Chronic,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_Pav_EH1_1,NA,15,Pavona,EH,Medium,,
-2022-08-01,D4,3x3,D4_3x3_Aug1_Pav_EH2_1,NA,20,Pavona,EH,Mild,,
+8/1/22,D1,3x3,D1_3x3_Aug1_Pav_EHmaybe1_1,NA,10,Pavona,EH,Mild,,
+8/1/22,D1,3x3,D1_3x3_Aug1_Pav_EHmaybeno2_1,NA,20,Pavona,EH,Mild,,
+8/1/22,D1,3x3,D1_3x3_Aug1_Pav_EH3_1,NA,15,Pavona,EH,Severe,,
+8/1/22,D1,2x2,D1_2x2_Aug1_Pav_EH1_1,NA,10,Pavona,EH,Medium,,
+8/1/22,D1,2x2,D1_2x2_Aug1_Pav_EH2_1,NA,5,Pavona,EH,Medium,,
+8/1/22,D1,2x2,D1_2x2_Aug1_Pav_EH3_1,NA,5,Pavona,EH,Medium,,
+8/1/22,D1,2x2,D1_2x2_Aug1_Astrea_Bleach1_1,NA,5,Astrea,Focal_bleach,NA,,Shouldn't count this I don't think. Skipped the rest so would want to go back and write others if we want to include it
+8/1/22,D1,2x2,D1_2x2_Aug1_Astrea_Bleach1_1,NA,10,Astrea,Focal_bleach,NA,,
+8/1/22,C3,3x3,C3_3x3_Aug1_P4_Bleach_1,P4,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,3x3,C3_3x3_Aug1_P8_1,P8,20,Pocillopora,TL_ciliate,Chronic,,Light ciliates. Also the size
+8/1/22,C3,3x3,C3_3x3_Aug1_P20_1,P20,25,Pocillopora,TL_ciliate,Chronic,,
+8/1/22,C3,3x3,C3_3x3_Aug1_P20_1,P20,25,Pocillopora,Bleach_base_or_side,NA,,Repeating rows that have multiple categories
+8/1/22,C3,3x3,C3_3x3_Aug1_P19_2,P19,20,Pocillopora,Bleach_base_or_side,NA,,Bleached in the direction of the dead skeleton which died since the last time point
+8/1/22,C3,3x3,C3_3x3_Aug1_P22_1,P22,25,Pocillopora,TL_ciliate,Chronic,,
+8/1/22,C3,3x3,C3_3x3_Aug1_P21_1,P21,20,Pocillopora,Bleach_base_or_side,NA,,Interstices
+8/1/22,C3,3x3,C3_3x3_Aug1_P24_1,P24,15,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,3x3,C3_3x3_Aug1_P24_1,P24,15,Pocillopora,TL_ciliate,Subacute,,
+8/1/22,C3,3x3,C3_3x3_Aug1_Pav_EH1_1,NA,10,Pavona,EH,Medium,,
+8/1/22,C3,3x3,C3_3x3_Aug1_P15_1,P15,20,Pocillopora,TL_ciliate,Subacute,,
+8/1/22,C3,3x3,C3_3x3_Aug1_P10_1,P10,10,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,3x3,C3_3x3_Aug1_Por_TL1_1,NA,10,Porites,TL,Chronic,,
+8/1/22,C3,3x3,C3_3x3_Aug1_P12_1,P12,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,1x1,C3_1x1_A6n7_1,A6,10,Acropora,Dead_tips,NA,,
+8/1/22,C3,1x1,C3_1x1_A6n7_1,A7,10,Acropora,Dead_tips,NA,,
+8/1/22,C3,1x1,C3_1x1_P2_1,P2,30,Pocillopora,TL_ciliate,Chronic,,
+8/1/22,C3,1x1,C3_1x1_P2_1,P2,30,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,1x1,C3_1x1_P5_1,P5,15,Pocillopora,Bleach_base_or_side,NA,,Another instance of where bleaching is not where you'd expect if it's light-based?
+8/1/22,C3,1x1,C3_1x1_Pabove14_1,TBD,TBD,Pocillopora,TL,Chronic,,
+8/1/22,C3,1x1,C3_1x1_Pabove14_1,TBD,TBD-also check P17,Acropora,TL,Chronic,,
+8/1/22,C3,1x1,C3_1x1_PinMontip_1,P27,Check-5,Pocillopora,TL,Chronic,,Check this--pretty sure it's 27 but is not circled in the photomosaics?
+8/1/22,C3,1x1,C3_1x1_P23_1,P23,15,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,1x1,C3_1x1_P23_1,P23,15,Pocillopora,TL,Subacute,,
+8/1/22,C3,1x1,C3_1x1_P17_1,P17,10,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,1x1,C3_1x1_belowA1_1,P19,Check-,Pocillopora,Maybe_TL,Chronic,,
+8/1/22,C3,1x1,C3_1x1_A2_1,A2,20,Acropora,TL,Subacute,,
+8/1/22,C3,1x1,C3_1x1_P20_1,P20,10,Pocillopora,TL_ciliate,Subacute,,
+8/1/22,C3,1x1,C3_1x1_P28_1,P28,10,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,1x1,C3_1x1_P30_1,P30,25,Pocillopora,TL,Acute,,
+8/1/22,C3,open,C3_open_P10_1,P10,20,Pocillopora,TL_ciliate_maybe,Chronic,,Not sure we should count this one
+8/1/22,C3,open,C3_open_P8_1,P8,25,Pocillopora,TL_ciliate,Chronic,,Could this just be algal stress?
+8/1/22,C3,open,C3_open_Pav_EH1_1,NA,20,Pavona,EH,Severe,,
+8/1/22,C3,open,C3_open_Pav_EH2_1,NA,10,Pavona,EH,Medium,,
+8/1/22,C3,open,C3_open_Pav_EH2_3,NA,15,Pavona,EH,Mild,,
+8/1/22,C3,open,C3_open_Pav_EH3_3,NA,10,Pavona,EH,Mild,,
+8/1/22,C3,open,C3_open_Pav_TL1_1,NA,10,Pavona,TL,Chronic,,
+8/1/22,C3,open,C3_open_P3_1,P3,20,Pocillopora,Algal_interaction,NA,,Light ciliates at algal interaction margin
+8/1/22,C3,open,C3_open_P5_1,P5,20,Pocillopora,TL_ciliate,Chronic,,
+8/1/22,C3,open,C3_open_P12_1,P12,15,Pocillopora,TL,Subacute,,Couldn't tell if there were ciliates or not
+8/1/22,C3,open,C3_open_P14_1,P14,5,Pocillopora,TL,Subacute,,
+8/1/22,C3,open,C3_open_P13_1,P13,20,Pocillopora,Bleach_base_or_side,NA,,In the direction of dying coral outside the cage
+8/1/22,C3,open,C3_open_P15_1,P15,20,Pocillopora,TL,Chronic,,
+8/1/22,C3,2x2,C3_2x2_P12_1,P12,10,Pocillopora,TL_tips,NA,,
+8/1/22,C3,2x2,C3_2x2_P12_1,P12b,10,Pocillopora,TL_tips,NA,,
+8/1/22,C3,2x2,C3_2x2_P12_1,P12,10,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,2x2,C3_2x2_P12_1,P12b,10,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,2x2,C3_2x2_P13_1,P13,5,Pocillopora,TL_tips,NA,,
+8/1/22,C3,2x2,C3_2x2_Pav_EH1_1,NA,15,Pavona,EH,Mild,,
+8/1/22,C3,2x2,C3_2x2_Pav_EH2_1,NA,10,Pavona,EH,Medium,,
+8/1/22,C3,2x2,C3_2x2_Montip_TL1_1,NA,15,Montipora,TL,Chronic,,
+8/1/22,C3,2x2,C3_2x2_Astrea_Bleach_1,NA,10,Astrea,Focal_bleach,NA,,
+8/1/22,C3,2x2,C3_2x2_Pav_EH3_1,NA,10,Pavona,EH,Severe,,
+8/1/22,C3,2x2,C3_2x2_Astrea_Bleach2_1,NA,10,Astrea,Focal_bleach,NA,,
+8/1/22,C3,2x2,C3_2x2_P7_1,P7,25,Pocillopora,TL,Subacute,,
+8/1/22,C3,2x2,C3_2x2_P7_1,P7,25,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,2x2,C3_2x2_P8_1,P8,15,Pocillopora,TL_tips,NA,,
+8/1/22,C3,2x2,C3_2x2_P8_1,P8,15,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,2x2,C3_2x2_P3_1,P3,15,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,2x2,C3_2x2_P3_1,P3,15,Pocillopora,TL_maybe,Chronic,,I think this might just be algae
+8/1/22,C3,2x2,C3_2x2_P4_1,P4,20,Pocillopora,TL,Chronic,,
+8/1/22,C3,2x2,C3_2x2_P11_1,P11,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,2x2,C3_2x2_P16_1,P16,10,Pocillopora,TL,Chronic,,"Lobophora driven? Not really ""progressive"". Not sure if we need to distinguish this stuff"
+8/1/22,C3,2x2,C3_2x2_P18_1,P18,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,2x2,C3_2x2_P23_1,P23,25,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C3,2x2,C3_2x2_P23_1,P23,25,Pocillopora,TL,Subacute,,
+8/1/22,C3,2x2,C3_2x2_P25_1,P25,10,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C1,1x1,C1_1x1_P1_1,P1,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C1,1x1,C1_1x1_P6_1,P6,20,Pocillopora,Bleach_base_or_side,NA,,Very light bleachy--not sure if want to distinguish between ones that are just very light on the bottom
+8/1/22,C1,1x1,C1_1x1_P7_1,P7,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C1,1x1,C1_1x1_P7_1,P7,20,Pocillopora,TL,Subacute,,
+8/1/22,C1,1x1,C1_1x1_P12_1,P12,50,Pocillopora,Bleach_base_or_side,NA,,Tons of little pockets of tissue. Maybe some TL also?
+8/1/22,C1,1x1,C1_1x1_P12_1,P12,50,Pocillopora,TL_maybe,NA,,
+8/1/22,C1,1x1,C1_1x1_P9_1,P9,15,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C1,1x1,C1_1x1_P9_1,P9,15,Pocillopora,TL,Subacute,,
+8/1/22,C1,1x1,C1_1x1_P4_1,P4,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C1,1x1,C1_1x1_P4_1,P4,20,Pocillopora,TL,Subacute,,
+8/1/22,C1,1x1,C1_1x1_P5_1,P5,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C1,1x1,C1_1x1_P5_1,P5,20,Pocillopora,TL,Chronic,,Pretty sure but not 100%
+8/1/22,C1,1x1,C1_1x1_P14_1,P14,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,C1,1x1,C1_1x1_P14_1,P14,20,Pocillopora,TL,Subacute,,
+8/1/22,C1,1x1,C1_1x1_PXX_1,TBD-P12 I think?,TBD,Pocillopora,TL,Chronic,,
+8/1/22,C1,1x1,C1_1x1_P18_1,P18,25,Pocillopora,TL,Acute,,
+8/1/22,C1,1x1,C1_1x1_P19_1,P19,25,Pocillopora,TL_ciliate,Subacute,,
+8/1/22,C1,1x1,C1_1x1_P17_1,P17,20,Pocillopora,TL,Subacute,,
+8/2/22,B4,3x3,B4_3x3_P9_1,P9,10,Pocillopora,TL,Acute,,
+8/2/22,B4,3x3,B4_3x3_P8_1,P8,35,Pocillopora,TL,Acute,,
+8/2/22,B4,3x3,B4_3x3_P8_1,P8,35,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B4,3x3,B4_3x3_A3_P4_1,A3,20,Acropora,Recently_dead,NA,,
+8/2/22,B4,3x3,B4_3x3_A3_P4_1,P4,5,Pocillopora,Recently_dead,NA,,
+8/2/22,B4,3x3,B4_3x3_P3_1,P3,20,Pocillopora,TL_maybe,NA,,
+8/2/22,B4,3x3,B4_3x3_P5_1,P5,20,Pocillopora,TL,Acute,,
+8/2/22,B4,3x3,B4_3x3_P14_1,P14,15,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B4,3x3,B4_3x3_P14_1,P14,15,Pocillopora,Bleached_tips,NA,,
+8/2/22,B4,3x3,B4_3x3_P22_1,P22,10,Pocillopora,TL,Chronic,,Mostly dead
+8/2/22,B4,3x3,B4_3x3_P1_1,P1,20,Pocillopora,TL_ciliate,Chronic,,
+8/2/22,B4,1x1,B4_1x1_A4_1,A4,10,Acropora,Bleached_tips,NA,,
+8/2/22,B4,1x1,B4_1x1_P23_1,P23,20,Pocillopora,Bleached_tips,NA,,
+8/2/22,B4,1x1,B4_1x1_Montip_TL1_1,NA,20,Montipora,TL,Subacute,,
+8/2/22,B4,1x1,B4_1x1_P25_1,P25,15,Pocillopora,TL,Subacute,,
+8/2/22,B4,1x1,B4_1x1_P25_1,P25,15,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B4,1x1,B4_1x1_P19_1,P19,10,Pocillopora,Bleached_tips,NA,,
+8/2/22,B4,1x1,B4_1x1_P17_1,P17,20,Pocillopora,Bleached_tips,NA,,
+8/2/22,B4,1x1,B4_1x1_nextP26_1,P26,35,Pocillopora,Bleached_tips,NA,,
+8/2/22,B4,1x1,B4_1x1_P32_1,P32,5,Pocillopora,Bleached_tips,NA,,
+8/2/22,B4,1x1,B4_1x1_P14_1,P14,20,Pocillopora,Bleached_tips,NA,,
+8/2/22,B4,1x1,B4_1x1_Montip_TL2_1,NA,10,Montipora,TL,Chronic,,
+8/2/22,B4,1x1,B4_1x1_P9_andAbove_1,P16,15,Pocillopora,TL,Chronic,,Pretty sure this is actually _16 and P9 is dead
+8/2/22,B4,1x1,B4_1x1_P9_andAbove_1,P16,25,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B4,2x2,B4_2x2_Pav_EH1_1,NA,15,Pavona,EH,Mild,,
+8/2/22,B4,2x2,B4_2x2_P5_1,P5,15,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B4,2x2,B4_2x2_P31_1,P31,5,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B4,2x2,B4_2x2_P31_1,P31,5,Pocillopora,TL,Chronic,,
+8/2/22,B4,2x2,B4_2x2_PXX_1,P32,5,Pocillopora,Bleached_tips,NA,,
+8/2/22,B4,2x2,B4_2x2_P3_1,P3,20,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B4,2x2,B4_2x2_P3_1,P3,20,Pocillopora,Bleached_tips,NA,,
+8/2/22,B4,2x2,B4_2x2_P30_1,P30,35,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B4,2x2,B4_2x2_P10_1 and B4_2x2_P10_18,P10,40,Pocillopora,TL,Subacute,,
+8/2/22,B4,2x2,B4_2x2_P12_1,P12,20,Pocillopora,TL,Acute,,
+8/2/22,B4,2x2,B4_2x2_P17_1,P17,20,Pocillopora,TL,Subacute,,
+8/2/22,B4,open,B4_open_Pav_EH1_1,NA,10,Pavona,EH,Severe,,
+8/2/22,B4,open,B4_open_P12_1,P12,30,Pocillopora,TL_ciliate,Subacute,,
+8/2/22,B4,open,B4_open_P13_1,P13,20,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B4,open,B4_open_P2_1,P2,20,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,2x2,B3_2x2_Montip_TL1_1,NA,35,Montipora,TL,Subacute,,
+8/2/22,B3,2x2,B3_2x2_P4_1,P4,20,Pocillopora,TL,Subacute,,
+8/2/22,B3,2x2,B3_2x2_P4_1,P4,20,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,2x2,B3_2x2_P8_1,P8,20,Pocillopora,TL_ciliate,Chronic,,Might just be algal contact?
+8/2/22,B3,2x2,B3_2x2_P20_1,P20,25,Pocillopora,Bleach_base_or_side,NA,,Super mild--don't know if we should count this
+8/2/22,B3,2x2,B3_2x2_P34_1,P34,20,Pocillopora,TL_ciliate,Subacute,,
+8/2/22,B3,2x2,B3_2x2_P11_1,P11,25,Pocillopora,TL_ciliate,Chronic,,Could it just be from the algae?
+8/2/22,B3,2x2,B3_2x2_P13_1,P13,25,Pocillopora,TL_ciliate_slow,Chronic,,Most of this colony dead. Not sure this counts as recent TL?
+8/2/22,B3,2x2,B3_2x2_P2_1,P2,10,Pocillopora,TL_ciliate,Subacute,,
+8/2/22,B3,2x2,B3_2x2_P1_1,P1,10,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,2x2,B3_2x2_P18_1,P18,15,Pocillopora,TL_ciliate,Subacute,,
+8/2/22,B3,2x2,B3_2x2_P15_1,P15,10,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,open,B3_open_Pav_EH1_1,NA,10,Pavona,EH,Severe,,
+8/2/22,B3,open,B3_open_Pav_EH2_1,NA,20,Pavona,EH,Medium,,
+8/2/22,B3,open,B3_open_Leptoser_EH1_1,NA,20,Leptastrea,EH,Medium,,
+8/2/22,B3,open,B3_open_Pav_EH3_1,NA,5,Pavona,EH,Mild,,
+8/2/22,B3,open,B3_open_P24_1,P24,25,Pocillopora,TL_ciliate,Chronic,,
+8/2/22,B3,open,B3_open_P25_1,P25,25,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,open,B3_open_P25_1,P25,25,Pocillopora,TL,Subacute,,TL from neighboring colony
+8/2/22,B3,open,B3_open_P26_detach_1,P26,30,Pocillopora,TL,Acute,,Detached
+8/2/22,B3,open,B3_open_P20_1,P20,15,Pocillopora,TL,Subacute,,
+8/2/22,B3,open,B3_open_P28_1,P28,20,Pocillopora,TL_ciliate,Chronic,,
+8/2/22,B3,open,B3_open_P28_1,P28,20,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,open,B3_open_P19_1,P19,25,Pocillopora,TL_ciliate,Chronic,,
+8/2/22,B3,open,B3_open_P16_1,P16,10,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,open,B3_open_P17_1,P17,15,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,open,B3_open_P6_1,P6,10,Pocillopora,TL_ciliate,Chronic,,
+8/2/22,B3,open,B3_open_P3_1,P3,20,Pocillopora,TL,Acute,,By Halimeda
+8/2/22,B3,open,B3_open_P11_1,P11,20,Pocillopora,Bleach_base_or_side,NA,,By Halimeda
+8/2/22,B3,open,B3_open_P5_1,P5,15,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,1x1,B3_1x1_P29_1,P29,10,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,1x1,B3_1x1_P29_1,P29,10,Pocillopora,TL,Subacute,,
+8/2/22,B3,1x1,B3_1x1_P2_1,P2,20,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,1x1,B3_1x1_P35_1,P35,5,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,1x1,B3_1x1_Astrea_TL1_1,NA,10,Astrea,TL,Chronic,,
+8/2/22,B3,1x1,B3_1x1_P28_1,P28,15,Pocillopora,Bleach_base_or_side,NA,,Definitely not about light here I wouldn't think?
+8/2/22,B3,1x1,B3_1x1_P3_1,P3,15,Pocillopora,TL,Subacute,,
+8/2/22,B3,1x1,B3_1x1_P5_1,P5,20,Pocillopora,TL,Subacute,,
+8/2/22,B3,1x1,B3_1x1_A6_1,A6,10,Acropora,TL,Subacute,,
+8/2/22,B3,1x1,B3_1x1_Montip_TL1_1,NA,15,Montipora,TL,Acute,,Maybe some ciliates in there?
+8/2/22,B3,1x1,B3_1x1_P9_1,P9,10,Pocillopora,Bleach_base_or_side,NA,,Bleached by Halimeda
+8/2/22,B3,1x1,B3_1x1_P13_1,P13,10,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,1x1,B3_1x1_P13_1,P13,10,Pocillopora,Bleached_tips,NA,,
+8/2/22,B3,1x1,B3_1x1_P23_1,P23,10,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,1x1,B3_1x1_P16_1,P16,30,Pocillopora,TL,Subacute,,
+8/2/22,B3,1x1,B3_1x1_P21_1,P21,15,Pocillopora,Bleached_tips,NA,,
+8/2/22,B3,1x1,B3_1x1_P22_1,P22,15,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,3x3,B3_3x3_Montip_TL1_1,NA,15,Montipora,TL,Chronic,,
+8/2/22,B3,3x3,B3_3x3_Pav_EH1_1,NA,20,Pavona,EH,Medium,,
+8/2/22,B3,3x3,B3_3x3_P6_1,P6,20,Pocillopora,Bleach_base_or_side,NA,,
+8/2/22,B3,3x3,B3_3x3_P18_1,P18,25,Pocillopora,TL,Subacute,,
+8/2/22,B3,3x3,B3_3x3_P19_1,P19,10,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,C1,2x2,C1_2x2_P2_1,P2,20,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,C1,2x2,C1_2x2_P3_1,P3,20,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,C1,2x2,C1_2x2_P5_1,P5,30,Pocillopora,Bleach_base_or_side,NA,,COOL! Bleached bases and TL that seems to spread to P4 which spreads to tips of A2
+8/3/22,C1,2x2,C1_2x2_P5_1,P5,30,Pocillopora,TL,Chronic,,Might be subacute
+8/3/22,C1,2x2,C1_2x2_P4_1,P4,30,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,C1,2x2,C1_2x2_A2_1,A2,20,Acropora,Bleach_base_or_side,NA,,
+8/3/22,C1,2x2,C1_2x2_A2_1,A2,20,Acropora,TL,Chronic,,
+8/3/22,C1,2x2,C1_2x2_Pav_EH1_1,NA,10,Pavona,EH,Mild,,
+8/3/22,C1,2x2,C1_2x2_Pav_EH2_1,NA,10,Pavona,EH,Mild,,Not sure we should even count this?
+8/3/22,C1,2x2,C1_2x2_Pav_EH3_1,NA,15,Pavona,EH,Severe,,
+8/3/22,C1,2x2,C1_2x2_Pav_EH4_1,NA,10,Pavona,EH,Mild,,
+8/3/22,C1,2x2,C1_2x2_Pav_P9_1,P9,10,Pocillopora,TL,Acute,,
+8/3/22,C1,2x2,C1_2x2_Pav_P8_1,P8,10,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,C1,2x2,C1_2x2_Pav_P18_1,P18,20,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,C1,2x2,C1_2x2_Pav_P18_1,P18,20,Pocillopora,TL,Subacute,,What to do about tissue loss within the bleaching? Have been countint that but not sure
+8/3/22,C1,2x2,C1_2x2_Pav_P15_1,P15,15,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,C1,2x2,C1_2x2_Pav_P11_1,P11,10,Pocillopora,TL,Chronic,,
+8/3/22,C1,2x2,C1_2x2_Pav_P13_1,P13,25,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,C1,2x2,C1_2x2_Por_TL1_1,NA,5,Porites,TL,Subacute,,
+8/3/22,C1,2x2,C1_2x2_Por_Montip_TL1_1,NA,15,Montipora,TL,Chronic,,
+8/3/22,C1,2x2,C1_2x2_Por_Montip_TL1_4,NA,10,Montipora,TL,Chronic,,
+8/3/22,C1,3x3,C1_3x3_P1_1,P1,10,Pocillopora,TL,Chronic,,
+8/3/22,C1,3x3,C1_3x3_P13_1,P13,20,Pocillopora,TL,Acute,,
+8/3/22,C1,3x3,C1_3x3_P12_1,P12,15,Pocillopora,Bleach_base_or_side,NA,,What's up with P3? Not sure where the photo is for that
+8/3/22,C1,3x3,C1_3x3_P5_1,P5,15,Pocillopora,Bleach_base_or_side,NA,,Not including P18 because such a weak bleach
+8/3/22,C1,3x3,C1_3x3_Pav_EH1_1,NA,10,Pavona,EH,Mild,,
+8/3/22,C1,open,C1_open_Pav_EH1_1,NA,15,Pavona,EH,Severe,,
+8/3/22,C1,open,C1_open_Pav_EH2_1,NA,10,Pavona,EH,Severe,,
+8/3/22,C1,open,C1_open_Pav_EH3_1,NA,5,Pavona,EH,Mild,,
+8/3/22,C1,open,C1_open_Pav_EH4_1,NA,10,Pavona,EH,Mild,,
+8/3/22,C1,open,C1_open_P3_1,P3,20,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,C1,open,C1_open_Por_TL1_1,NA,20,Porites,TL,Subacute,,
+8/3/22,C1,open,C1_open_P11_1,P11,20,Pocillopora,TL_ciliate,Subacute,,
+8/3/22,C1,open,C1_open_P18_1,P18,15,Pocillopora,TL,Chronic,,
+8/3/22,D2,2x2,D2_2x2_Montip_TL1_1,NA,10,Montipora,TL,Subacute,,
+8/3/22,D2,2x2,D2_2x2_P3_1,P3,20,Pocillopora,TL,Subacute,,
+8/3/22,D2,2x2,D2_2x2_P8_1,P8,25,Pocillopora,TL_ciliate,Chronic,,
+8/3/22,D2,2x2,D2_2x2_P10_1,P10,15,Pocillopora,TL,Chronic,,
+8/3/22,D2,2x2,D2_2x2_P11_1,P11,30,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,D2,2x2,D2_2x2_P13_1,P13,15,Pocillopora,TL_ciliate,Chronic,,
+8/3/22,D2,2x2,D2_2x2_P15_1,P15,15,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,D2,2x2,D2_2x2_P15_1,P15,15,Pocillopora,TL,Subacute,,
+8/3/22,D2,2x2,D2_2x2_P21_1,P21,15,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,D2,2x2,D2_2x2_P21_1,P21,15,Pocillopora,TL_ciliate,Subacute,,
+8/3/22,D2,2x2,D2_2x2_P26_1,P26,15,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,D2,2x2,D2_2x2_Pav_EH1_1,NA,10,Pavona,EH,Medium,,
+8/3/22,D2,2x2,D2_2x2_Pav_EH1_4,NA,15,Pavona,EH,Mild,,
+8/3/22,D2,2x2,D2_2x2_Pav_EH2_1,NA,10,Pavona,EH,Medium,,
+8/3/22,D2,2x2,D2_2x2_Pav_EH3_1,NA,10,Pavona,EH,Medium,,
+8/3/22,A1,2x2,A1_2x2_P3_1,P3,25,Pocillopora,Bleach_base_or_side,NA,,Stuff has gotten out of order… need to I guess keep going by date modified but then maybe check it? Did all of D2 2x2 sorted by Name because seeemed weird..
+8/3/22,A1,2x2,A1_2x2_P12_1,P12,10,Pocillopora,TL,Subacute,,
+8/3/22,A1,2x2,A1_2x2_P4_1,P4,10,Pocillopora,TL_ciliate,Chronic,,
+8/3/22,A1,2x2,A1_2x2_Pav_EH1_1,NA,10,Pavona,EH,Medium,,P. varians not chiriquensis
+8/3/22,A1,2x2,A1_2x2_Pav_EH2_1,NA,15,Pavona,TL,Subacute,,Not counting P5 because bleaching is so chill not noticable
+8/3/22,A1,2x2,A1_2x2_Pav_P9_1,P9,15,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,A1,2x2,A1_2x2_Pav_P13_1,P13,15,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,A1,2x2,A1_2x2_Pav_EH3_1,NA,10,Pavona,EH,Mild,,
+8/3/22,A1,2x2,A1_2x2_Pav_EH4_1,NA,10,Pavona,EH,Medium,,
+8/3/22,A1,1x1,A1_1x1_P12_1,P12,15,Pocillopora,Bleach_base_or_side,NA,,Looks like it might have spread from P1?
+8/3/22,A1,1x1,A1_1x1_P1_1,P1,35,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,A1,1x1,A1_1x1_P1_1,P1,35,Pocillopora,TL,Chronic,,
+8/3/22,A1,1x1,A1_1x1_P7_1,P7,25,Pocillopora,TL,Chronic,,On base
+8/3/22,A1,1x1,A1_1x1_P3_1,P3,10,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,A1,1x1,A1_1x1_Montip_TL1_1,NA,25,Montipora,TL,Subacute,,
+8/3/22,A1,1x1,A1_1x1_Montip_TL2_1,NA,5,Montipora,TL,Subacute,,Might actually be chronic--but is a big portion of the colony since it's small
+8/3/22,A1,1x1,A1_1x1_Montip_TL3_1,NA,30,Montipora,TL,Acute,,
+8/3/22,A1,1x1,A1_1x1_P5_1,P5,5,Pocillopora,TL,Subacute,,
+8/3/22,A1,1x1,A1_1x1_P5_1,P5,5,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,A1,1x1,A1_1x1_P9_1,P9,20,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,A1,1x1,A1_1x1_P9_1,P9,20,Pocillopora,Bleached_tips,NA,,
+8/3/22,A1,1x1,A1_1x1_P10_1,P10,25,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,A1,1x1,A1_1x1_P15_1,P15,20,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,A1,1x1,A1_1x1_P17_1,P17,25,Pocillopora,TL_ciliate,Chronic,,"Didn't include P13 or P14 because wrote ""probably fine"" and didn't look very serious"
+8/3/22,A1,1x1,A1_1x1_P11_1,P11,25,Pocillopora,TL_ciliate,Chronic,,
+8/3/22,A1,1x1,A1_1x1_P11_1,P11,25,Pocillopora,Bleach_base_or_side,NA,,
+8/3/22,A1,1x1,A1_1x1_Astrea_TL1_1,NA,5,Astrea,TL,Chronic,,Clear TL progressive pattern
+8/4/22,A2,2x2,A2_2x2_P39_1,P39,5,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,2x2,A2_2x2_P3_1,P3,35,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,2x2,A2_2x2_P3_1,P3,35,Pocillopora,TL,Subacute,,
+8/4/22,A2,2x2,A2_2x2_P12_2,P12,15,Pocillopora,TL,Chronic,,
+8/4/22,A2,2x2,A2_2x2_P12_2,P12,15,Pocillopora,Bleach_base_or_side,NA,,"Didn't include P5 bleaching because wrote ""chill""--maybe should do this more systematically?"
+8/4/22,A2,2x2,A2_2x2_P13_1,P13,40,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,2x2,A2_2x2_P11_1,P11,20,Pocillopora,Bleach_base_or_side,NA,,"This one said ""chill"" but didn't look it so included. "
+8/4/22,A2,2x2,A2_2x2_P10_1,P10,10,Pocillopora,TL_ciliate,Subacute,,Between Chronic and Subacute actually I think
+8/4/22,A2,2x2,A2_2x2_P9_1,P9,20,Pocillopora,Bleach_base_or_side,Chill,,"From here on out putting these as ""chill"". Bleachy where it touched the Lobophora"
+8/4/22,A2,2x2,A2_2x2_A5_4,A5,5,Acropora,Bleached_tips,NA,,There are two time stamps on this for 1/2 and 1/2. Went back to get all
+8/4/22,A2,2x2,A2_2x2_P21_1,P21,25,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,2x2,A2_2x2_P23_1,P23,25,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,2x2,A2_2x2_P23_1,P23,25,Pocillopora,TL,Chronic,,
+8/4/22,A2,2x2,A2_2x2_P24_1,P24,20,Pocillopora,Bleach_base_or_side,Chill,,
+8/4/22,A2,2x2,A2_2x2_P24_1,P24,20,Pocillopora,Bleached_tips,NA,,
+8/4/22,A2,2x2,A2_2x2_P26_1,P26,20,Pocillopora,Bleach_base_or_side,NA,,"This one said ""chill"" but was very white under there.."
+8/4/22,A2,3x3,A2_3x3_P28_1,P28,10,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,3x3,A2_3x3_P20_1,P20,20,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,3x3,A2_3x3_Montip_TL1_1,NA,20,Montipora,TL,Chronic,,
+8/4/22,A2,3x3,A2_3x3_P12_1,P12,15,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,3x3,A2_3x3_P12_1,P12,15,Pocillopora,TL_ciliate,Chronic,,This is on the tips.. Interesting. Some of these bleached tips might actually be TL
+8/4/22,A2,3x3,A2_3x3_P12_1,P12,15,Pocillopora,Bleached_tips,NA,,
+8/4/22,A2,3x3,A2_3x3_P9_1,P9,25,Pocillopora,TL,Chronic,,Kinda subacute vibes though also
+8/4/22,A2,3x3,A2_3x3_P8_1,P8,15,Pocillopora,Bleached_tips,NA,,
+8/4/22,A2,3x3,A2_3x3_P8_1,P8,15,Pocillopora,TL,Chronic,,Kinda subacute vibes though also
+8/4/22,A2,3x3,A2_3x3_P2_1,P2,20,Pocillopora,TL_ciliate,Subacute,,On the tips again.. Both Chronic and subacute?
+8/4/22,A2,3x3,A2_3x3_P2_1,P2,20,Pocillopora,Bleached_tips,NA,,
+8/4/22,A2,3x3,A2_3x3_P7_1,P7,15,Pocillopora,TL_ciliate,Chronic,,Ciliates are light
+8/4/22,A2,3x3,A2_3x3_P6_1,P6,20,Pocillopora,TL_ciliate,Chronic,,Kinda subacute vibes though also
+8/4/22,A2,3x3,A2_3x3_P10_1,P10,25,Pocillopora,TL_ciliate,Chronic,,
+8/4/22,A2,3x3,A2_3x3_P13_1,P13,15,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,3x3,A2_3x3_P23_1,P23,15,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,3x3,A2_3x3_P3_1,P3,15,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,3x3,A2_3x3_P3_1,P3,15,Pocillopora,TL,Chronic,,
+8/4/22,A2,3x3,A2_3x3_P3_1,P3,15,Pocillopora,Bleached_tips,NA,,This is really TL I'm just counting bleached tips as a category just to track this
+8/4/22,A2,3x3,A2_3x3_P15_1,P15,20,Pocillopora,TL_ciliate,Chronic,,
+8/4/22,A2,3x3,A2_3x3_P16_1,P16,20,Pocillopora,TL,Subacute,,From Halimeda and Lobophora--bordering Acute?
+8/4/22,A2,3x3,A2_3x3_P25_1,P25,25,Pocillopora,TL_ciliate,Chronic,,I guess Chronic but it's also hard when it's like all white? Why does that happen?
+8/4/22,A2,open,A2_open_A4_1,A4,10,Acropora,Bleach_base_or_side,NA,,The bleached base in Acropora does look different (like the verrucae thingies are white?)
+8/4/22,A2,open,A2_open_P26_1,P26,20,Pocillopora,Bleach_base_or_side,Chill,,Small bleached patch--I think this is just being shaded by the dead skeleton?
+8/4/22,A2,open,A2_open_P13_1,P13,25,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,open,A2_open_Pav_EH1_1,NA,20,Pavona,EH,Medium,,
+8/4/22,A2,open,A2_open_P12_1,P12,15,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,open,A2_open_P1_1,P1,25,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,open,A2_open_P7_1,P7,20,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,open,A2_open_P10_1,P10,25,Pocillopora,TL_ciliate,Subacute,,
+8/4/22,A2,open,A2_open_P17_1,P17,30,Pocillopora,TL_ciliate,Subacute,,
+8/4/22,A2,open,A2_open_Leptoser_TL1_1,NA,5,Leptoseris,TL,Chronic,,
+8/4/22,A2,open,A2_open_P3_1,P33,10,Pocillopora,TL,Chronic,,Just trusting the notes on this one
+8/4/22,A2,open,A2_open_P3_1,P33,10,Pocillopora,Bleach_base_or_side,Chill,,"Not even on the notes--just put it as a ""chill"""
+8/4/22,A2,open,A2_open_P20_1,P20,15,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,open,A2_open_P22_1,P22,20,Pocillopora,TL_maybePred,Chronic,,Not sure about the snail situation
+8/4/22,A2,open,A2_open_Pav_EH2_1,NA,10,Pavona,EH,Mild,,
+8/4/22,A2,open,A2_open_A2_1,A2,15,Acropora,TL,Subacute,,
+8/4/22,A2,open,A2_open_P18_1,P18,35,Pocillopora,Bleach_base_or_side,Chill,,
+8/4/22,A2,open,A2_open_P31_1,P31,5,Pocillopora,Bleach_base_or_side,Chill,,Literally can't see anything
+8/4/22,A2,open,A2_open_P9_1,P9,25,Pocillopora,Bleach_base_or_side,Chill,,
+8/4/22,A2,open,A2_open_P8_1,P8,20,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,open,A2_open_P5_1,P5,20,Pocillopora,Bleach_base_or_side,Chill,,I think Chill but maybe need to make better rules about this
+8/4/22,A2,open,A2_open_P4_1,P4,20,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,A2,open,A2_open_P3_1_detached,P3,10,Pocillopora,TL,Subacute,,
+8/4/22,D2,1x1,D2_1x1_P15_1,P15,25,Pocillopora,TL,Subacute,,What to do about the purple stuff? This also had chronic TL. Going by the biggest TL amount
+8/4/22,D2,1x1,D2_1x1_P14_1,P14,40,Pocillopora,TL,Chronic,,I think--could also be a band of bleaching?
+8/4/22,D2,1x1,D2_1x1_P14_1,P14,40,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,D2,1x1,D2_1x1_P17_1,P17,20,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,D2,1x1,D2_1x1_P17_1,P17,20,Pocillopora,Bleached_tips,NA,,
+8/4/22,D2,1x1,D2_1x1_P11_1,P11,25,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,D2,1x1,D2_1x1_betP6nP11_2,P10,10,Pocillopora,TL_ciliate,Chronic,,Maybe subacute?
+8/4/22,D2,1x1,D2_1x1_P18_1,P18,10,Pocillopora,TL,Subacute,,At base
+8/4/22,D2,1x1,D2_1x1_P8_1,P8,5,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,D2,1x1,D2_1x1_P3_1,P3,25,Pocillopora,TL,Subacute,,Like half is dead. This might really be more like acute?
+8/4/22,D2,1x1,D2_1x1_P3_1,P3,25,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,D2,1x1,D2_1x1_P3_1,P3,25,Pocillopora,TL_ciliate,Chronic,,Included this as a row because it seemed so different? Not sure if that's right
+8/4/22,D2,1x1,D2_1x1_P6_1,P6,30,Pocillopora,Bleach_base_or_side,NA,,
+8/4/22,D2,1x1,D2_1x1_P6_1,P6,30,Pocillopora,TL,Subacute,,I think in photo D2_1x1_P6_8
+8/4/22,D2,1x1,D2_1x1_P6_9,P24,20,Pocillopora,Bleach_base_or_side,Chill,,Photo is labelled incorrectly
+8/4/22,D2,1x1,D2_1x1_P24_1,P21,15,Pocillopora,Bleach_base_or_side,NA,,Photo is also labelled incorrectly
+8/4/22,D2,1x1,D2_1x1_P21_1,P2,25,Pocillopora,TL,Chronic,,Photo is also labelled incorrectly
+8/4/22,D2,1x1,D2_1x1_P21_1,P2,25,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,A1,open,A1_open_P5_1,P5,30,Pocillopora,TL_ciliate,Subacute,,
+8/6/22,A1,open,A1_open_Pav_EH1_1,NA,15,Pavona,EH,Severe,,I guess these are probably connected underneath?
+8/6/22,A1,open,A1_open_Pav_EH2_1,NA,5,Pavona,EH,Severe,,
+8/6/22,A1,open,A1_open_Pav_EH2_1,NA,5,Pavona,EH,Severe,,Also counting the lil guy next to this one as separate
+8/6/22,A1,open,A1_open_Pav_EH3_1,NA,15,Pavona,EH,Severe,,
+8/6/22,A1,open,A1_open_P12_1,P12,20,Pocillopora,TL,Chronic,,
+8/6/22,A1,open,A1_open_Pav_EH4_1,NA,10,Pavona,EH,Severe,,
+8/6/22,A1,open,A1_open_P8_1,P8,15,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,A1,open,A1_open_P21_1,P21,25,Pocillopora,TL,Chronic,,
+8/6/22,A1,3x3,A1_3x3_P1_1,P1,25,Pocillopora,TL_ciliate,Chronic,,Made up of a bunch of little colonies/remnants
+8/6/22,A1,3x3,A1_3x3_Pav_EH1_1,NA,10,Pavona,EH,Mild,,
+8/6/22,A1,3x3,A1_3x3_Pav_EH2_2,NA,5,Pavona,EH,Medium,,
+8/6/22,A1,3x3,A1_3x3_P3_1,P3,25,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,A1,3x3,A1_3x3_P6_1,P6,35,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,A1,3x3,A1_3x3_P6_1,P6,35,Pocillopora,TL,Subacute,,By Halimeda and dead skeleton generally
+8/6/22,A1,3x3,A1_3x3_P5_1,P5,20,Pocillopora,TL_ciliate,Subacute,,
+8/6/22,A1,3x3,A1_3x3_Pav_EH3_1,NA,10,Pavona,EH,Mild,,
+8/6/22,A1,3x3,A1_3x3_P13_1,P13,25,Pocillopora,Bleach_base_or_side,NA,,Purple tissue again
+8/6/22,A1,3x3,A1_3x3_P15_1,P15,15,Pocillopora,Bleach_base_or_side,NA,,Tip where near the other coral
+8/6/22,A1,3x3,A1_3x3_P9_1,P9,20,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,A1,3x3,A1_3x3_P9_1,P9,20,Pocillopora,TL,Subacute,,
+8/6/22,A1,3x3,A1_3x3_P8_1,P8,20,Pocillopora,TL_ciliate,Chronic,,
+8/6/22,A2,2x2,A2_2x2_A5_1,A5,5,Acropora,TL,Chronic,,Included again for bleached tips
+8/6/22,A2,1x1,A2_1x1_P21_1,P21,40,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,A2,1x1,A2_1x1_P21_1,P21,40,Pocillopora,TL,Subacute,,
+8/6/22,A2,1x1,A2_1x1_P6_1,P6,20,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,A2,1x1,A2_1x1_P6_1,P6,20,Pocillopora,TL,Chronic,,
+8/6/22,A2,1x1,A2_1x1_P5_1,P5,15,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,A2,1x1,A2_1x1_P4_1,P4,15,Pocillopora,Bleach_base_or_side,Chill,,I acutally think not? Hard to see
+8/6/22,A2,1x1,A2_1x1_P16_1,P16,10,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,A2,1x1,A2_1x1_P17_1,P17,20,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,A2,1x1,A2_1x1_P17_1,P17,20,Pocillopora,TL,Chronic,,
+8/6/22,A2,1x1,A2_1x1_P19_1,P19,30,Pocillopora,Bleach_base_or_side,NA,,Called chill but not sure if it really was? Borderline
+8/6/22,A2,1x1,A2_1x1_P18_1,P18,35,Pocillopora,Bleach_base_or_side,NA,,Base and on the tip
+8/6/22,A2,1x1,A2_1x1_P12_1,P12,15,Pocillopora,Bleach_base_or_side,NA,,"Said ""chill"" but idk I'm not counting it as such"
+8/6/22,A2,1x1,A2_1x1_P11_1,P11,20,Pocillopora,TL,Chronic,,
+8/6/22,A2,1x1,A2_1x1_P10_1,P10,15,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,A2,1x1,A2_1x1_P9_1,P9,15,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,A2,1x1,A2_1x1_P9_1,P9,15,Pocillopora,TL,Chronic,,
+8/6/22,A2,1x1,A2_1x1_P3_1,P3,40,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,A2,1x1,A2_1x1_P3_1,P3,40,Pocillopora,TL_ciliate,Chronic,,
+8/6/22,D2,open,D2_open_Pav_EH1_1,NA,5,Pavona,EH,Mild,,
+8/6/22,D2,open,D2_open_Pav_EH2_2,NA,5,Pavona,EH,Mild,,
+8/6/22,D2,open,D2_open_Pav_EH2_2,NA,5,Pavona,EH,Mild,,
+8/6/22,D2,open,D2_open_Pav_EH2_2,NA,5,Pavona,EH,Mild,,These are very small--didn't count them as separate intitially but I think so?
+8/6/22,D2,open,D2_open_Pav_EH3_2,NA,15,Pavona,EH,Severe,,Or maybe medium?
+8/6/22,D2,open,D2_open_Pav_EH4_1,NA,5,Pavona,EH,Mild,,
+8/6/22,D2,open,D2_open_P7_1,P7,25,Pocillopora,TL_ciliate,Chronic,,
+8/6/22,D2,open,D2_open_belowP14_detach_1,P13,15,Pocillopora,TL_ciliate,Chronic,,
+8/6/22,D2,open,D2_open_Pav_EH5_1,NA,5,Pavona,EH,Mild,,
+8/6/22,D2,open,D2_open_Pav_EH6_1,NA,5,Pavona,EH,Medium,,
+8/6/22,D2,open,D2_open_P12_1,P12,30,Pocillopora,TL_ciliate,Chronic,,
+8/6/22,D2,open,D2_open_P4_1,P4,30,Pocillopora,TL,Chronic,,Purple skeleton also
+8/6/22,D2,open,D2_open_Pav_EH7_1,NA,20,Pavona,EH,Severe,,
+8/6/22,D4,2x2,D4_2x2_Montip_TL1_1,NA,20,Montipora,TL,Subacute,,
+8/6/22,D4,2x2,D4_2x2_P3_1,P3,15,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,D4,2x2,D4_2x2_P2_1,P2,20,Pocillopora,Bleach_base_or_side,NA,,Not counting the TL here
+8/6/22,D4,2x2,D4_2x2_A3_1,A3,20,Acropora,Bleach_base_or_side,NA,,
+8/6/22,D4,2x2,D4_2x2_Montip_TL2_1,NA,30,Montipora,TL,Chronic,,
+8/6/22,D4,2x2,D4_2x2_P7_1,P7,35,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,D4,2x2,D4_2x2_P5_1,P5,35,Pocillopora,TL,Subacute,,
+8/6/22,D4,2x2,D4_2x2_P5_1,P5,35,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,D4,2x2,D4_2x2_P6_1,P6,15,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,D4,2x2,D4_2x2_P9_1,P9,15,Pocillopora,Bleach_base_or_side,NA,,Is this chill?
+8/6/22,D4,2x2,D4_2x2_P21_1,P21,10,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,D4,2x2,D4_2x2_P20_1,P20,20,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,D4,2x2,D4_2x2_P20_1,P20,20,Pocillopora,Bleached_tips,NA,,
+8/6/22,D4,2x2,D4_2x2_P11_1,P11,15,Pocillopora,Bleach_base_or_side,Bleach_base_or_side,,
+8/6/22,D4,2x2,D4_2x2_A2_1,A2,20,Acropora,Bleach_base_or_side,NA,,By Halimeda
+8/6/22,D4,2x2,D4_2x2_P17_1,P17,10,Pocillopora,Bleach_base_or_side,NA,,By Halimeda
+8/6/22,D4,2x2,D4_2x2_P14_1,P14,45,Pocillopora,Bleach_base_or_side,NA,,
+8/6/22,D4,2x2,D4_2x2_P14_1,P14,45,Pocillopora,TL,Subacute,,
+8/6/22,D4,2x2,D4_2x2_P16_1,P16,20,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D4,open,D4_open_P22_1,P22,20,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D4,open,D4_open_P22_1,P22,20,Pocillopora,TL_ciliate,Chronic,,
+8/8/22,D4,open,D4_open_P23_1,P23,20,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D4,open,D4_open_P23_1,P23,20,Pocillopora,TL_ciliate,Chronic,,Maybe subacute? Gotta get better at this
+8/8/22,D4,open,D4_open_Pav_EH1_1,NA,20,Pavona,EH,Mild,,
+8/8/22,D4,open,D4_open_P25_1,P25,25,Pocillopora,Bleach_base_or_side,Chill,,
+8/8/22,D4,open,D4_open_P24_1,P24,15,Pocillopora,Bleach_base_or_side,Chill,,
+8/8/22,D4,open,D4_open_P11_1,P11,15,Pocillopora,TL_ciliate,Chronic,,Might be more subacute idk but the branching pattern makes it difficult
+8/8/22,D4,open,D4_open_P11_1,P11,15,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D4,open,D4_open_P10_1,P10,20,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D4,open,D4_open_P12_1,P12,15,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D4,open,D4_open_Pav_EH2_1,NA,10,Pavona,EH,Severe,,
+8/8/22,D4,open,D4_open_P9_1,P9,15,Pocillopora,TL,Chronic,,By Lobophora--might be Ciliate tips?
+8/8/22,D4,open,D4_open_P2_1,P2,20,Pocillopora,TL_ciliate,Chronic,,Coming off the scuzzy green algae
+8/8/22,D4,open,D4_open_P1_1,P1,15,Pocillopora,TL,Chronic,,By Lobophora. Also purpley
+8/8/22,D4,open,D4_open_P5_1,P5,15,Pocillopora,TL_ciliate,Chronic,,
+8/8/22,D4,open,D4_open_P6_1,P6,15,Pocillopora,TL,Subacute,,
+8/8/22,D4,open,D4_open_P6_1,P6,15,Pocillopora,Bleach_base_or_side,NA,,Not sure if this is the right way to describe this? Not like super crazy bleach base
+8/8/22,D4,open,D4_open_P8_1,P8,30,Pocillopora,TL,Subacute,,
+8/8/22,D4,open,D4_open_P8_1,P8,30,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D4,open,D4_open_P14_1,P14,20,Pocillopora,Bleach_base_or_side,Chill,,Maybe more serious than chill?
+8/8/22,D4,open,D4_open_P16_1,P16,20,Pocillopora,Bleach_base_or_side,NA,,There's TL in this… but isn't like TL TL? Not sure 
+8/8/22,D4,open,D4_open_P19_1,P19,15,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D4,open,D4_open_P42_1,P42,10,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D2,3x3,D2_3x3_P25_1,P25,10,Pocillopora,TL,Chronic,,With purple
+8/8/22,D2,3x3,D2_3x3_Pav_EH1_1,NA,10,Pavona,EH,Severe,,
+8/8/22,D2,3x3,D2_3x3_P16_1,P16,15,Pocillopora,TL,Subacute,,
+8/8/22,D2,3x3,D2_3x3_P9_1,P9,15,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D2,3x3,D2_3x3_P9_1,P9,15,Pocillopora,TL,Subacute,,By Halimeda
+8/8/22,D2,3x3,D2_3x3_Astrea_Bleach1_1_hardtoseeinphoto,NA,10,Astrea,Bleach_base_or_side,NA,,
+8/8/22,D2,3x3,D2_3x3_Astrea_Bleach1_1_hardtoseeinphoto,NA,5,Astrea,Bleach_base_or_side,NA,,
+8/8/22,D2,3x3,D2_3x3_Astrea_Bleach1_1_hardtoseeinphoto,NA,10,Astrea,Bleach_base_or_side,NA,,
+8/8/22,D2,3x3,D2_3x3_P1_1,P1,20,Pocillopora,Bleach_base_or_side,NA,,Some TL in it
+8/8/22,D2,3x3,D2_3x3_P2_1,P2,30,Pocillopora,Bleach_base_or_side,NA,,By Lobophora. But this is also TL For sure??
+8/8/22,D2,3x3,D2_3x3_P3_1,P3,10,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D2,3x3,D2_3x3_Millep_TL1_1,NA,10,Millepora,TL,Chronic,,
+8/8/22,D2,3x3,D2_3x3_P5_1,P5,20,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D2,3x3,D2_3x3_P5_1,P5,20,Pocillopora,TL_ciliate,Chronic,,
+8/8/22,D2,3x3,D2_3x3_P11_1,P11,10,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D2,3x3,D2_3x3_P10_1,P10,10,Pocillopora,Bleach_base_or_side,NA,,No photo? Not sure what happened
+8/8/22,D2,3x3,D2_3x3_P20_1,P20,20,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D2,3x3,D2_3x3_P20_1,P20,20,Pocillopora,TL,Chronic,,
+8/8/22,D2,3x3,D2_3x3_P22_1,P22,20,Pocillopora,Bleach_base_or_side,NA,,
+8/8/22,D2,3x3,D2_3x3_P22_1,P22,20,Pocillopora,TL,Subacute,,Coming from Lobophora
+8/8/22,B4,3x3,B4_3x3_Pav_EH1_1,NA,10,Pavona,EH,Severe,,
+8/8/22,B4,3x3,B4_3x3_Pav_EH2_1,NA,10,Pavona,EH,Mild,,
+8/8/22,B4,3x3,B4_3x3_Pav_EH3_1,NA,15,Pavona,EH,Medium,,
+8/8/22,B4,3x3,B4_3x3_Pav_EH4_1,NA,10,Pavona,EH,Mild,,
+8/8/22,B4,3x3,B4_3x3_Pav_EH5_1,NA,10,Pavona,EH,Medium,,
+8/8/22,B4,3x3,B4_3x3_Por_TL1_1,NA,10,Porites,TL,NA,,I don't think this is TL?
+8/8/22,B4,3x3,B4_3x3_Goniast_Bleach1_1,NA,10,Goniastrea,Bleach_base_or_side,NA,,
+8/1/22,D4,1x1,D4_1x1_Aug1_A4_Bleach_1,A4,20,Acropora,Bleach_base_or_side,NA,,This was from the initial D4 surveys
+8/1/22,D4,1x1,D4_1x1_Aug1_P3_TL_1,P3,25,Pocillopora,TL,Subacute,,
+8/1/22,D4,1x1,D4_1x1_Aug1_P5_Bleach_1,P5,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,D4,1x1,D4_1x1_Aug1_P6_Bleach_1,P6,10,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,D4,1x1,D4_1x1_Aug1_P11_Bleach_1_partloose,P11,30,Pocillopora,Bleach_base_or_side,NA,,This is pretty insane
+8/1/22,D4,1x1,D4_1x1_Aug1_P12_TL_1,P12,15,Pocillopora,TL,Acute,,By Halimeda and stuff?
+8/1/22,D4,1x1,D4_1x1_Aug1_P14_SEB_1,P14,25,Pocillopora,TL_ciliate,Chronic,,Also in: D4_1x1_Aug1_P18_TLSEB_1
+8/1/22,D4,1x1,D4_1x1_Aug1_P16_Bleach_1,P16,10,Pocillopora,Bleached_tips,NA,,Could some of these just be predation?
+8/1/22,D4,1x1,D4_1x1_Aug1_Por_Bleach1_1,NA,10,Porites,Bleach_base_or_side,NA,,
+8/1/22,D4,1x1,D4_1x1_Aug1_PunDiffuser_Bleach_1,PX,5,Pocillopora,Bleach_base_or_side,NA,,Could this be P6?
+8/1/22,D4,3x3,D4_3x3_Aug1_A3_Bleach_1,A3,10,Acropora,TL,Subacute,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P4_Bleach_1,P4,30,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P4_Bleach_1,P4,30,Pocillopora,TL,Subacute,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P7_Bleach_1,P7,10,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P13_Bleach_1,P13,10,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P14_Bleach_1,P14,25,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P14_Bleach_1,P14,25,Pocillopora,TL_ciliate,Chronic,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P16_TL_1,P16,15,Pocillopora,TL,Chronic,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P20?_Bleach_1,P20,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P20?_Bleach_1,P20,20,Pocillopora,TL,Chronic,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P21_Bleach_1,P21,15,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P22_Bleach_1,P22,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P26?_Bleach_1,P26,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P30_Bleach_1,P30,20,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P31_Bleach_1,P31,10,Pocillopora,Bleach_base_or_side,NA,,
+8/1/22,D4,3x3,D4_3x3_Aug1_P31_Bleach_1,P31,10,Pocillopora,TL,Chronic,,
+8/1/22,D4,3x3,D4_3x3_Aug1_Pav_EH1_1,NA,15,Pavona,EH,Medium,,
+8/1/22,D4,3x3,D4_3x3_Aug1_Pav_EH2_1,NA,20,Pavona,EH,Mild,,
