@@ -60,12 +60,16 @@ pavEH %>%
   geom_bar(stat = "identity") +
   scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
   theme_classic() + 
-  facet_wrap(~Nutrient_Trt)
+  facet_wrap(~Nutrient_Trt) +
+  xlab("Herbivory treatment") +
+  ylab("Number of Pavona colonies with EH")
+
+ggsave(here("figs/PavEHAbundance.jpg"), height = 3.5, width = 6)
 ```
 
 But, this doesn't mean anything! Because need to get colony counts 
 
-# Pocillopora TL 
+# Pocillopora TL + Cil TL
 
 ```{r}
 # what are our options here?
@@ -217,6 +221,7 @@ surveys %>%
   group_by(Block, Herbivory_trt) %>% 
   summarize(Count = n()) %>% 
   full_join(colony_counts) %>%
+  mutate(Count = replace_na(Count, 0)) %>%
   filter(Disturbance_Trt == "Intact") %>% 
   ungroup() %>% 
   select(-Acropora_colonies, -Notes) %>% 
@@ -234,6 +239,8 @@ mPoc <- glm(Count ~ Herbivory_trt + Nutrient_Trt + Herbivory_trt:Nutrient_Trt + 
     data = pocTLmod)
   summary(mPoc) # stepwise selection just selects for nutrient enrichment
 ```
+
+
 
 
 # Ciliate TL
@@ -289,7 +296,14 @@ pocTLcil %>%
   geom_bar(stat = "identity") +
   scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
   theme_classic() + 
-  facet_wrap(~Nutrient_Trt)
+  facet_wrap(~Nutrient_Trt) +
+  xlab("Herbivory treatment") +
+  ylab("Ciliate + tissue loss prevalence")
+
+
+ggsave(here("figs/SEBprevalence.jpg"), height = 3.5, width = 6)
+
+
 ```
 
 No recruits
@@ -367,6 +381,7 @@ surveys %>%
   group_by(Block, Herbivory_trt) %>% 
   summarize(Count = n()) %>% 
   full_join(colony_counts) %>%
+  mutate(Count = replace_na(Count, 0)) %>% 
   filter(Disturbance_Trt == "Intact") %>% 
   ungroup() %>% 
   select(-Acropora_colonies, -Notes) %>% 
@@ -514,6 +529,294 @@ mPocBleach <- glm(Count ~ Nutrient_Trt + Herbivory_trt + Nutrient_Trt:Herbivory_
 
 # Bring in Lobophora percent cover
 
-# How to deal with size? Mega df?
+```{r}
+annotations <- read_csv(here("generated_data/T12annotations.csv"))
+```
+
+## Join together with Poc TL
+
+```{r}
+# make annotation fields match
+annotations %>% 
+  rename(Herbivory_trt = Herb_TRT) -> annotations
+ 
+
+pocTL %>% 
+  # make join fields match
+  rename(Block_Plot = Block) %>%  
+  mutate(Herbivory_trt = as.character(Herbivory_trt)) %>% 
+  mutate(Herbivory_trt = case_when(
+      Herbivory_trt == "1x1" ~ "1X1",
+      Herbivory_trt == "2x2" ~ "2X2",
+      Herbivory_trt == "3x3" ~ "3X3",
+      Herbivory_trt == "open" ~ "Open",
+      TRUE ~ Herbivory_trt
+  )) %>% 
+  left_join(annotations) -> pocLoboph
+```
+
+## Real quick check Pavona cover
+
+```{r}
+pocLoboph %>% 
+  ggplot(aes(x = Herbivory_trt, y = Pavona, fill = Nutrient_Trt)) +
+  geom_boxplot() +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  xlab("Herbivory treatment") +
+  ylab("Pavona (% cover)") +
+  facet_wrap(~Nutrient_Trt) +
+  theme(legend.position = "none")
+
+ggsave(here("figs/PavPercentCov.jpg"), height = 3.5, width = 6)
+```
+
+
+## Plot TL vs. Loboph
+
+Probably want to look at this vs. Macroalgae, Halimeda_spp, and Foliose_Lobophora
+
+```{r}
+pocLoboph %>% 
+  ggplot(aes(x = Foliose_Lobophora, y = Prev_all, color = Nutrient_Trt)) +
+  geom_point() +
+  theme_classic() +
+  facet_wrap(~Nutrient_Trt) # it would be hard to have less of a pattern here..
+```
+
+Macroalgae
+
+```{r}
+pocLoboph %>% 
+  ggplot(aes(x = Macroalgae, y = Prev_all, color = Nutrient_Trt)) +
+  geom_point() +
+  theme_classic() +
+  facet_wrap(~Nutrient_Trt) # it would be hard to have less of a pattern here..
+```
+
+Halimeda
+
+```{r}
+pocLoboph %>% 
+  ggplot(aes(x = Halimeda_spp, y = Prev_all, color = Nutrient_Trt)) +
+  geom_point() +
+  theme_classic() +
+  facet_wrap(~Nutrient_Trt) # it would be hard to have less of a pattern here..
+```
+
+
+## Join together with Poc TL ciliates
+
+```{r}
+pocTLcil %>% 
+  # make join fields match
+  rename(Block_Plot = Block) %>%  
+  mutate(Herbivory_trt = as.character(Herbivory_trt)) %>% 
+  mutate(Herbivory_trt = case_when(
+      Herbivory_trt == "1x1" ~ "1X1",
+      Herbivory_trt == "2x2" ~ "2X2",
+      Herbivory_trt == "3x3" ~ "3X3",
+      Herbivory_trt == "open" ~ "Open",
+      TRUE ~ Herbivory_trt
+  )) %>% 
+  left_join(annotations) -> poccilLoboph
+```
+
+### Plot
+
+```{r}
+poccilLoboph %>% 
+  ggplot(aes(x = Foliose_Lobophora, y = Prev_all, color = Nutrient_Trt)) +
+  geom_point() +
+  theme_classic() +
+  facet_wrap(~Nutrient_Trt) # Again not much of a pattern--if anything negative
+```
+
+```{r}
+poccilLoboph %>% 
+  ggplot(aes(x = Macroalgae, y = Prev_all, color = Nutrient_Trt)) +
+  geom_point() +
+  theme_classic() +
+  facet_wrap(~Herbivory_trt)  + # Again not much of a pattern--if anything negative
+  xlab("Macroalgae % Cover") +
+  ylab("Prevalence of ciliate TL") 
+
+ggsave(here("figs/CiliateTLMacroalgae.jpg"), height = 3.5, width = 5)
+```
+
+
+## Join together with Poc Bleaching
+
+```{r}
+pocBleach %>% 
+  # make join fields match
+  rename(Block_Plot = Block) %>%  
+  mutate(Herbivory_trt = as.character(Herbivory_trt)) %>% 
+  mutate(Herbivory_trt = case_when(
+      Herbivory_trt == "1x1" ~ "1X1",
+      Herbivory_trt == "2x2" ~ "2X2",
+      Herbivory_trt == "3x3" ~ "3X3",
+      Herbivory_trt == "open" ~ "Open",
+      TRUE ~ Herbivory_trt
+  )) %>% 
+  left_join(annotations) -> pocBleachLoboph
+```
+
+### Plot
+
+```{r}
+pocBleachLoboph %>% 
+  ggplot(aes(x = Foliose_Lobophora, y = Prev_all, color = Nutrient_Trt)) +
+  geom_point() +
+  theme_classic() +
+  facet_wrap(~Herbivory_trt) # noting 
+```
+
+```{r}
+pocBleachLoboph %>% 
+  ggplot(aes(x = Macroalgae, y = Prev_all, color = Nutrient_Trt)) +
+  geom_point() +
+  theme_classic() +
+  facet_wrap(~Herbivory_trt) # noting 
+```
+
+```{r}
+pocBleachLoboph %>% 
+  ggplot(aes(x = Halimeda_spp, y = Prev_all, color = Nutrient_Trt)) +
+  geom_point() +
+  theme_classic() #+
+  facet_wrap(~Herbivory_trt) # This looks the most positive of them all
+```
 
 # Acropora
+
+
+```{r}
+# what are our options here?
+surveys %>% 
+  filter(Genus == "Acropora") %>% 
+  group_by(Suspected_disease) %>% summarize(N = n()) 
+
+
+```
+
+Start with just the TL instances that seem the most sure?
+
+```{r}
+
+surveys %>% 
+  filter(Genus == "Acropora" & Suspected_disease == "TL") %>% 
+  # start looking without thinking about size?
+  group_by(Block, Herbivory_trt, Progression) %>% 
+  summarize(Count = n()) %>% 
+  pivot_wider(names_from = Progression, values_from = Count) %>% 
+  full_join(colony_counts) %>%
+  filter(Disturbance_Trt == "Intact") %>% 
+  mutate(Subacute = replace_na(Subacute, 0),
+         Chronic = replace_na(Chronic, 0)) %>% 
+  ungroup() %>% 
+  select(-Pocillopora_colonies, -Poc_norecruits, -Notes) %>% 
+  pivot_longer(cols = c("Subacute", "Chronic"),
+               names_to = "Progression",
+               values_to = "Count") %>% 
+  # reorder factors
+  mutate(Herbivory_trt = factor(Herbivory_trt, levels = c("1x1", "2x2", "3x3", "open"))) %>% 
+  mutate(Progression = factor(Progression, levels = c("Chronic", "Subacute", "Acute"))) %>% 
+  # get prevalences
+  mutate(Prev_all = Count/Acropora_colonies) -> acropTL
+  
+
+```
+
+
+## Plot
+
+Just count (sloppy)
+
+```{r}
+acropTL %>% 
+  ggplot(aes(x = Herbivory_trt, y = Count, fill = Progression, color = Nutrient_Trt,)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt) 
+```
+
+All
+
+```{r}
+acropTL %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill = Progression, color = Nutrient_Trt,)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt) +
+  xlab("Herbivory treatment") +
+  ylab("TL prevalence: Acropora") # BUT There are no Acropora in D2 3x3 and Open
+
+
+ggsave(here("figs/AcroporaTLprevalence.jpg"), width = 6, height = 3.5)
+```
+
+
+## Model
+
+Make a df for all
+
+```{r}
+surveys %>% 
+  filter(Genus == "Acropora" & Suspected_disease == "TL") %>% 
+  # start looking without thinking about size?
+  group_by(Block, Herbivory_trt) %>% 
+  summarize(Count = n()) %>% 
+  full_join(colony_counts) %>%
+  mutate(Count = replace_na(Count, 0)) %>% 
+  filter(Disturbance_Trt == "Intact") %>% 
+  ungroup() %>% 
+  select(-Pocillopora_colonies, -Poc_norecruits, -Notes) %>% 
+  mutate(Herbivory_trt = factor(Herbivory_trt, levels = c("1x1", "2x2", "3x3", "open"))) %>% 
+  # get prevalences
+  mutate(Prev_all = Count/Acropora_colonies) %>% 
+  # remove infinite values
+  filter(!is.nan(Prev_all)) -> acropTLmod
+```
+
+Make a model?
+
+```{r}
+mAcropTL <- glm(Count ~ Herbivory_trt + Nutrient_Trt + Herbivory_trt:Nutrient_Trt + offset(log(Acropora_colonies)), 
+    family = poisson(link = "log"),
+    data = acropTLmod)
+  summary(mAcropTL) # stepwise selection just selects for nutrient enrichment but it doesn't look important..?
+```
+
+### Versus algae
+
+```{r}
+acropTL %>% 
+  # make join fields match
+  rename(Block_Plot = Block) %>%  
+  mutate(Herbivory_trt = as.character(Herbivory_trt)) %>% 
+  mutate(Herbivory_trt = case_when(
+      Herbivory_trt == "1x1" ~ "1X1",
+      Herbivory_trt == "2x2" ~ "2X2",
+      Herbivory_trt == "3x3" ~ "3X3",
+      Herbivory_trt == "open" ~ "Open",
+      TRUE ~ Herbivory_trt
+  )) %>% 
+  left_join(annotations) -> acropTLLoboph
+```
+
+### Plot
+
+```{r}
+acropTLLoboph %>% 
+  ggplot(aes(x = Foliose_Lobophora, y = Prev_all, color = Nutrient_Trt)) +
+  geom_point() +
+  theme_classic() +
+  facet_wrap(~Herbivory_trt) # nothing--too few data points 
+```
+
+
+# How to deal with size? Mega df?
+
