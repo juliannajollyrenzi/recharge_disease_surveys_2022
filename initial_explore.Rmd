@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 require(here)
 require(tidyverse)
+require(RColorBrewer)
 ```
 
 This code does some initial exploration of the disease survey data collected by Julianna Renzi in the summer of 2022 in RECHARGE.
@@ -25,9 +26,41 @@ colony_counts <- read_csv("data/colony_counts_T12.csv")
 ```
 
 
-# Explore
+# Explore Pavona EH
+
+Get counts of EH colonies
 
 ```{r}
-
+surveys %>% 
+  filter(Genus == "Pavona" & Suspected_disease == "EH") %>% 
+  # start looking without thinking about size?
+  group_by(Block, Herbivory_trt, Progression) %>% 
+  summarize(Count = n()) %>% 
+  pivot_wider(names_from = Progression, values_from = Count) %>% 
+  full_join(colony_counts) %>%
+  filter(Disturbance_Trt == "Intact") %>% 
+  mutate(Medium = replace_na(Medium, 0),
+         Mild = replace_na(Mild, 0),
+         Severe = replace_na(Severe, 0)) %>% 
+  ungroup() %>% 
+  select(-Pocillopora_colonies, -Poc_norecruits, -Acropora_colonies, -Notes) %>% 
+  pivot_longer(cols = c("Medium", "Mild", "Severe"),
+               names_to = "Severity",
+               values_to = "Count") %>% 
+  # reorder factors
+  mutate(Herbivory_trt = factor(Herbivory_trt, levels = c("1x1", "2x2", "3x3", "open"))) %>% 
+  mutate(Severity = factor(Severity, levels = c("Mild", "Medium", "Severe"))) -> pavEH
 ```
+
+## Plot
+
+```{r}
+pavEH %>% 
+  ggplot(aes(x = Herbivory_trt, y = Count, fill = Severity)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+```
+
 
