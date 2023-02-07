@@ -1,0 +1,184 @@
+---
+title: "T12 Annotations"
+author: "Julianna Renzi"
+date: "2/7/2023"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+require(tidyverse)
+require(here)
+```
+
+This script processes the T12 annotations from RECHARGE, downloaded off CoralNet on Feb 7 2023
+
+# Bring in the data
+
+```{r}
+# T12 annotations
+annotations <- read_csv(here("data/annotations_T712_7Feb2023.csv"))
+
+# we'll also bring in a key for dealing with many of the categories on coralnet (this is all from Tom's awesome code)
+key <- read_csv(here("data/annotation_key.csv")) 
+
+# and a metadata file for identifying plot treatments
+trt_key <- read_csv(here("data/TRT_key.csv"))
+```
+
+
+# Clean up the data
+
+Need to make the CoralNet file match the format of the csvs on the GoogleDrive
+
+```{r}
+annotations %>% 
+  # this one also has some inconsistent labels for herbivory
+  mutate(
+    Herb_TRT = case_when(
+      Herb_TRT == "1x1" ~ "1X1",
+      Herb_TRT == "3x3" ~ "3X3",
+      Herb_TRT == "open" ~ "Open",
+      TRUE ~ Herb_TRT
+    )
+  ) %>% 
+  select(-Date, -Row, -Column) %>% 
+  # there's also a mistake for D3_Open_orthomosaic_T12 where the metadata was input incorrectly. Fix that here:
+  mutate(Block = case_when(Name == "D3_Open_orthomosaic_T12.jpg" ~ "D",
+                           TRUE ~ Block),
+         Plot = case_when(Name == "D3_Open_orthomosaic_T12.jpg" ~ "3",
+                           TRUE ~ Plot),
+         Herb_TRT = case_when(Name == "D3_Open_orthomosaic_T12.jpg" ~ "Open",
+                           TRUE ~ Herb_TRT)) %>% 
+  mutate(Block_Plot = str_c(Block, Plot, sep = ""),
+         Block_Plot_Herb_TRT = str_c(Block_Plot, Herb_TRT, sep = "_"),
+         Count = 1) -> cover
+
+```
+
+
+Use the annotation key to get coarser taxa designations
+
+```{r}
+# first rename so colnames match
+key %>% 
+  mutate(Label = Taxa) -> key2
+
+# then join key with RECHARGE data
+cover %>% 
+  left_join(key2, by = "Label") %>% 
+  full_join(trt_key, by = "Block_Plot") -> recharge
+
+
+```
+
+
+Missing categories?
+
+```{r}
+recharge %>% 
+  filter(is.na(Group.2)) %>% 
+  select(Label) %>% unique() 
+```
+
+
+
+# Summarize at the plot level
+
+```{r}
+recharge %>% 
+  group_by(Time_point, Block, Plot, Block_Plot, Herb_TRT, Group.2, Nutrient_Trt, Disturbance_Trt) %>% 
+  # get count of each taxa per plot
+  summarize(Count = sum(Count)) %>% 
+  # pivot wider so each taxa gets a column
+  pivot_wider(names_from = Group.2, values_from = Count) %>% 
+  # replace NA values in the matrix with 0
+  replace(is.na(.), 0) %>% 
+  # get rid of points that are out
+  select(-OUT)  %>% 
+  ungroup() -> plots
+  
+```
+
+# Get percent covers
+
+```{r}
+
+# first column we want
+startcol <- grep("Acropora_spp", colnames(plots))
+
+# last column we want
+endcol <- grep("Lobophyla", colnames(plots))
+
+# calculate the total cover
+sum_cover <- cbind(plots, Plot_sum = rowSums(plots[, startcol:endcol]))
+
+# and percent cover
+perc_cover <- (sum_cover[,startcol:endcol]/sum_cover$Plot_sum) * 100
+
+# then combine columns again for the full dataset
+allDat <- cbind(plots[1:(startcol-1)], perc_cover) 
+  
+```
+
+
+Make subsets for algal and coral cover based on Tom's code. First pick out macroalgal and coral columns
+
+```{r}
+# pick out algal columns
+algalCols <- c(
+  grep("Asparagopsis", colnames(allDat)),
+  grep("Caulerpa_spp.", colnames(allDat)),
+  grep("Dictyota_spp.", colnames(allDat)),
+  grep("Foliose_Lobophora", colnames(allDat)),
+  grep("Halimeda_spp.", colnames(allDat)),
+  grep("Galaxaura_spp", colnames(allDat)),
+  grep("Chlorodesmis_spp", colnames(allDat)),
+  grep("Spatoglossum_spp", colnames(allDat)),
+  grep("Padina", colnames(allDat)),
+  grep("Red_articulated_calcified_algae", colnames(allDat)),
+  grep("Sargassum", colnames(allDat)),
+  grep("Turbinaria", colnames(allDat)),
+  grep("Unknown_macroalgae", colnames(allDat)),
+  grep("Valonia_spp.", colnames(allDat))
+)
+
+
+# pick out coral columns 
+coralCols <- c(
+  grep("Acanthastrea_spp", colnames(allDat)),
+  grep("Acropora_spp", colnames(allDat)),
+  grep("Fungiid", colnames(allDat)),
+  grep("Leptastrea", colnames(allDat)),
+  grep("Leptoseris", colnames(allDat)),
+  grep("Lobophyla", colnames(allDat)),
+  grep("Montipora_spp", colnames(allDat)),
+  grep("Pavona", colnames(allDat)),
+  grep("Phymastraea", colnames(allDat)),
+  grep("Pocillopora_spp", colnames(allDat)),
+  grep("Porites_spp", colnames(allDat)),
+  grep("Psammocora", colnames(allDat)),
+  grep("Unknown_encrusting_coral", colnames(allDat))
+)
+  
+```
+
+Then get those percent covers
+
+```{r}
+allDat$Macroalgae <- rowSums(allDat[ , algalCols])
+
+allDat$Coral <- rowSums(allDat[ , coralCols])
+
+```
+
+
+# Save as CSV
+
+```{r}
+write_csv(allDat, here("generated_data/T12annotations.csv"))
+```
+
