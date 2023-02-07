@@ -341,17 +341,6 @@ pocTLcil %>%
 
 ```
 
-```{r}
-
-pocTLcil %>% 
-  filter(Progression == "Acute") %>% 
-  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill =  Nutrient_Trt)) +
-  geom_bar(stat = "identity") +
-  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
-  theme_classic() + 
-  facet_wrap(~Nutrient_Trt)
-
-```
 
 Subacute + acute?
 
@@ -393,9 +382,138 @@ Make a model?
 mPocCil <- glm(Count ~ Herbivory_trt + offset(log(Pocillopora_colonies)), 
     family = poisson(link = "log"),
     data = pocTLcilmod)
-  summary(mPocCil) # a stepwise selection selects for herbivory treatment
+  summary(mPocCil) # a stepwise selects for herbivory treatment
+```
+
+# Poc "Bleaching"
+
+Look at the "bleaching" instances. Remove chill ones for now?
+
+```{r}
+surveys %>% 
+  filter(Genus == "Pocillopora" & (Suspected_disease == "Bleach_base_or_side")) %>%
+  mutate(Progression = case_when(is.na(Progression) ~ "Normal", 
+                                       TRUE ~ Progression)) %>% 
+  # start looking without thinking about size?
+  group_by(Block, Herbivory_trt, Progression) %>% 
+  summarize(Count = n()) %>% 
+  pivot_wider(names_from = Progression, values_from = Count) %>% 
+  full_join(colony_counts) %>%
+  filter(Disturbance_Trt == "Intact") %>% 
+  mutate(Normal = replace_na(Normal, 0),
+         Chill = replace_na(Chill, 0)) %>% 
+  ungroup() %>% 
+  select(-Acropora_colonies, -Notes) %>% 
+  pivot_longer(cols = c( "Normal", "Chill"), 
+               names_to = "Severity",
+               values_to = "Count") %>% 
+  # reorder factors
+  mutate(Herbivory_trt = factor(Herbivory_trt, levels = c("1x1", "2x2", "3x3", "open"))) %>% 
+  mutate(Severity = factor(Severity, levels = c("Chill", "Normal"))) %>% 
+  # get prevalences
+  mutate(Prev_all = Count/Pocillopora_colonies,
+         Prev_noRecruits = Count/Poc_norecruits) -> pocBleach
+  
+
 ```
 
 
+## Plot
+
+Just count (sloppy)
+
+```{r}
+pocBleach %>% 
+  ggplot(aes(x = Herbivory_trt, y = Count, fill = Severity, color = Nutrient_Trt,)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+```
+
+All
+
+```{r}
+pocBleach %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill = Severity, color = Nutrient_Trt,)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+```
+
+No recruits
+
+```{r}
+pocBleach %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_noRecruits, fill = Severity)) +
+  geom_bar(stat = "identity", color = "gray") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+```
+
+The opposite way?
+
+```{r}
+pocBleach %>% 
+  ggplot(aes(x = Nutrient_Trt, y = Prev_all, color = Nutrient_Trt, fill = Severity)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Herbivory_trt)
+```
+
+
+### By progression
+
+```{r}
+
+pocBleach %>% 
+  filter(Severity == "Normal") %>% 
+  ggplot(aes(x = Herbivory_trt, y = Prev_all, fill =  Nutrient_Trt)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = brewer.pal(n = 3, name = "YlOrRd")) +
+  theme_classic() + 
+  facet_wrap(~Nutrient_Trt)
+
+```
+
+
+## Model
+
+Make a df for all
+
+```{r}
+surveys %>% 
+  filter(Genus == "Pocillopora" & (Suspected_disease == "Bleach_base_or_side" )) %>% 
+  # remove chillers for now?
+  filter(is.na(Progression)) %>% 
+  # start looking without thinking about size?
+  group_by(Block, Herbivory_trt) %>% 
+  summarize(Count = n()) %>% 
+  full_join(colony_counts) %>%
+  mutate(Count = replace_na(Count, 0)) %>% 
+  filter(Disturbance_Trt == "Intact") %>% 
+  ungroup() %>% 
+  select(-Acropora_colonies, -Notes) %>% 
+  mutate(Herbivory_trt = factor(Herbivory_trt, levels = c("1x1", "2x2", "3x3", "open"))) %>% 
+  # get prevalences
+  mutate(Prev_all = Count/Pocillopora_colonies,
+         Prev_noRecruits = Count/Poc_norecruits) -> pocBleachmod
+```
+
+Make a model?
+
+```{r}
+mPocBleach <- glm(Count ~ Nutrient_Trt + Herbivory_trt + Nutrient_Trt:Herbivory_trt + offset(log(Pocillopora_colonies)), 
+    family = poisson(link = "log"),
+    data = pocBleachmod)
+  summary(mPocBleach) # a stepwise function keeps interaction
+```
+
+# Bring in Lobophora percent cover
+
+# How to deal with size? Mega df?
 
 # Acropora
